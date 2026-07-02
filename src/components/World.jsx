@@ -1,13 +1,15 @@
 import React from 'react';
-import PoolPlayer from './PoolPlayer.jsx';
+import Player from './Player.jsx';
 
 const World = ({ pool, market, transfers, gameDate, money, onBuy }) => {
   return (
     <div className="world-container">
-      <div className="pool-list">
+      <h2>Market</h2>
+      <ul className="owned-players">
         {pool.map(player => (
-          <PoolPlayer
+          <Player
             key={player.player_id}
+            owned={false}
             player={player}
             gameDate={gameDate}
             market={market}
@@ -16,7 +18,7 @@ const World = ({ pool, market, transfers, gameDate, money, onBuy }) => {
             onBuy={onBuy}
           />
         ))}
-      </div>
+      </ul>
     </div>
   );
 };

@@ -59,3 +59,14 @@ export function getClubAtDate(playerId, gameDate, transfers) {
   const current = playerTransfers.reverse().find(t => t.date <= gameDate)
   return current ? current.to_team_name : null
 }
+
+export function getAge(dateOfBirth, gameDate) {
+  const birth = new Date(dateOfBirth);
+  const game = new Date(gameDate);
+  let age = game.getFullYear() - birth.getFullYear();
+  const monthDiff = game.getMonth() - birth.getMonth();
+  if (monthDiff < 0 || (monthDiff === 0 && game.getDate() < birth.getDate())) {
+    age--;
+  }
+  return age;
+}

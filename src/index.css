@@ -200,7 +200,7 @@ code {
   background: #16a34a;
 }
 
-.home-container {
+.home-container, .world-container {
   padding: 20px;
   text-align: left;
 }
@@ -246,7 +246,6 @@ code {
   min-width: 120px;
 }
 
-.owned-player-age,
 .owned-player-price,
 .owned-player-club,
 .owned-player-nationality {
@@ -254,3 +253,9 @@ code {
   color: var(--text);
   margin-right: 12px;
 }
+
+.value-increase { color: #22c55e; }
+.value-decrease { color: #ef4444; }
+.club-change { color: #22c55e; }
+.total-increase { color: #22c55e; }
+.total-decrease { color: #ef4444; }

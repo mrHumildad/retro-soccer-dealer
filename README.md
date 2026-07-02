@@ -1,16 +1,32 @@
-# React + Vite
+# Retro Soccer Dealer
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A web-based soccer player trading management game built with React and Vite. You play as a transfer agent traveling through time from 2010 to 2020, buying and selling players to maximize profit.
 
-Currently, two official plugins are available:
+## How to Play
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Start with **$1,000,000** in **January 2010**
+- Advance one month at a time
+- Buy and sell players from a dynamic monthly pool
+- Goal: maximize your final score (remaining money + total market value of owned players) before January 2020
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** 19.2.7 — functional components and hooks
+- **Vite** 8.1.0 — build tool and dev server
+- **Oxlint** 1.69.0 — linting
+- **Pure CSS** — responsive layout with dark/light color scheme support
 
-## Expanding the Oxlint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```bash
+npm install
+npm run dev
+```
+
+## Data Sources
+
+The game uses real historical football data including player biographies, market values, and transfer records. All data files are stored in `/public`.
+
+## Disclaimer
+
+> This is a personal project made for educational and entertainment purposes only. All data, including player names, biographies, market values, and transfer records, are used solely for this non-commercial prototype. No ownership or affiliation with any football clubs, leagues, players, or data providers is claimed or implied.

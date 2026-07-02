@@ -5,6 +5,7 @@ import Header from './components/Header.jsx'
 import World from './components/World.jsx'
 import Home from './components/Home.jsx'
 import Footer from './components/Footer.jsx'
+import GameOver from './components/GameOver.jsx'
 import { initGame } from '../logics/initGame.js'
 import { parseCsv, formatValue } from '../logics/utils.js'
 import { getPool } from '../logics/mechanics.js'
@@ -42,12 +43,19 @@ function App() {
     setPool(prevPool => prevPool.filter(p => p.player_id !== playerId))
   }
 
+  const handleSell = (playerId, value) => {
+    setGameData(prev => ({ ...prev, money: prev.money + value, players: prev.players.filter(p => p.player_id !== playerId) }))
+  }
+
   const nextMonth = () => {
     setGameData(prev => {
+      const oldTotalValue = prev.players.reduce((acc, p) => acc + (p.marketValue || 0), 0)
       const nextMonthNum = prev.month + 1
       const nextYear = prev.year + (nextMonthNum > 12 ? 1 : 0)
       const newDateStr = nextYear + '-' + String(nextMonthNum > 12 ? 1 : nextMonthNum).padStart(2, '0') + '-01'
       const updatedPlayers = prev.players.map(p => {
+        const oldValue = p.marketValue
+        const oldClub = p.club
         const mv = market
           .filter(m => m.player_id === p.player_id && m.date <= newDateStr)
           .sort((a, b) => b.date.localeCompare(a.date))
@@ -60,14 +68,16 @@ function App() {
               ? pt[0].from_team_name
               : (pt.reverse().find(t => t.date <= newDateStr)?.to_team_name ?? p.club))
           : p.club
-        return { ...p, marketValue: newValue, club: newClub }
+        return { ...p, marketValue: newValue, club: newClub, prevMarketValue: oldValue, prevClub: oldClub }
       })
+      console.log('Updated players:', prev.poolSize)
       setPool(getPool(prev.poolSize, newDateStr, updatedPlayers.map(p => p.player_id), players))
       return {
         ...prev,
         month: nextMonthNum > 12 ? 1 : nextMonthNum,
         year: nextYear,
-        players: updatedPlayers
+        players: updatedPlayers,
+        prevTotalValue: oldTotalValue
       }
     })
   }
@@ -82,25 +92,32 @@ function App() {
         setPlayers(p)
         setMarket(m)
         setTransfers(t)
-        setPool(getPool(5, '2010-01-01', [], p))
+        setPool(getPool(gameData.poolSize, gameData.year + '-' + String(gameData.month).padStart(2, '0') + '-01', [], p))
       })
   }, [])
 
   const dateStr = gameData.year + '-' + String(gameData.month).padStart(2, '0') + '-01'
+  const isGameOver = gameData.year > gameData.endYear || (gameData.year === gameData.endYear && gameData.month >= gameData.endMonth)
 
   return (
     <div className="app-container">
       <Header money={formatValue(gameData.money)} year={gameData.year} month={gameData.month} />
-      <World
-        pool={pool}
-        market={market}
-        transfers={transfers}
-        gameDate={dateStr}
-        money={gameData.money}
-        onBuy={handleBuy}
-      />
-      <Home ownedPlayers={gameData.players} gameDate={dateStr} />
-      <Footer onNextMonth={() => players.length > 0 && nextMonth()} />
+      {isGameOver ? (
+        <GameOver money={gameData.money} ownedPlayers={gameData.players} />
+      ) : (
+        <>
+          <World
+            pool={pool}
+            market={market}
+            transfers={transfers}
+            gameDate={dateStr}
+            money={gameData.money}
+            onBuy={handleBuy}
+          />
+          <Home ownedPlayers={gameData.players} gameDate={dateStr} prevTotalValue={gameData.prevTotalValue} onSell={handleSell} />
+          <Footer onNextMonth={() => players.length > 0 && nextMonth()} />
+        </>
+      )}
     </div>
   )
 }
