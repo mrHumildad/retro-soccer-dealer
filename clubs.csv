@@ -1,0 +1,2176 @@
+club_id,club_name,country_name
+1,FC Saarbrücken,Germany
+2,FC Kaiserslautern,Germany
+3,FC Köln,Germany
+4,FC Nuremberg,Germany
+5,AC Milan,Italy
+6,Adanaspor,Türkiye
+8,Alemannia Aachen,Germany
+10,Arminia Bielefeld,Germany
+11,Arsenal FC,England
+12,AS Roma,Italy
+13,Atlético de Madrid,Spain
+14,Austria Vienna,Austria
+15,Bayer 04 Leverkusen,Germany
+16,Borussia Dortmund,Germany
+17,Borussia Dortmund II,Germany
+18,Borussia Mönchengladbach,Germany
+19,Brescia Calcio,Italy
+20,Bursaspor,Türkiye
+21,Chemnitzer FC,Germany
+22,Derby County,England
+23,Eintracht Braunschweig,Germany
+24,Eintracht Frankfurt,Germany
+25,FC Energie Cottbus,Germany
+26,FC Basel 1893,Switzerland
+27,Bayern Munich,Germany
+28,FC Bayern Munich II,Germany
+29,Everton FC,England
+30,FC Hansa Rostock,Germany
+31,Liverpool FC,England
+33,FC Schalke 04,Germany
+35,FC St. Pauli,Germany
+36,Fenerbahce,Türkiye
+38,Fortuna Düsseldorf,Germany
+39,1.FSV Mainz 05,Germany
+40,FC Girondins Bordeaux,France
+41,Hamburger SV,Germany
+42,Hannover 96,Germany
+43,Heart of Midlothian FC,Scotland
+44,Hertha BSC,Germany
+46,Inter Milan,Italy
+47,POT Iraklis Thessaloniki,Greece
+48,Karlsruher SC,Germany
+50,Rot Weiss Ahlen,Germany
+52,MSV Duisburg,Germany
+56,Rot-Weiss Essen,Germany
+57,Rot-Weiß Oberhausen,Germany
+58,RSC Anderlecht,Belgium
+59,SC Campomaiorense,Portugal
+60,SC Freiburg,Germany
+61,Servette FC,Switzerland
+62,SK Slavia Prague,Czech Republic
+64,SV 07 Elversberg,Germany
+65,SpVgg Greuther Fürth,Germany
+66,SpVgg Unterhaching,Germany
+69,SSV Ulm 1846,Germany
+71,Stuttgarter Kickers,Germany
+72,TSV 1860 Munich,Germany
+76,Vålerenga Fotball Elite,Norway
+78,VfB Lübeck,Germany
+79,VfB Stuttgart,Germany
+80,VfL Bochum,Germany
+81,VfL Osnabrück,Germany
+82,VfL Wolfsburg,Germany
+83,VfR Aalen,Germany
+84,Debreceni VSC,Hungary
+85,SV Waldhof Mannheim,Germany
+86,SV Werder Bremen,Germany
+87,SV Werder Bremen II,Germany
+88,Widzew Lodz,Poland
+89,1.FC Union Berlin,Germany
+90,SV Babelsberg 03,Germany
+91,Preußen Münster,Germany
+92,SC Fortuna Köln,Germany
+93,SC Verl,Germany
+94,FC Erzgebirge Aue,Germany
+95,KFC Uerdingen 05,Germany
+102,VfB Stuttgart II,Germany
+103,1.FC Schweinfurt 05,Germany
+104,SV Eintracht Trier 05,Germany
+105,SV Darmstadt 98,Germany
+107,Kickers Offenbach,Germany
+108,SV Wehen Wiesbaden,Germany
+109,SSV Jahn Regensburg,Germany
+110,SV Wacker Burghausen,Germany
+111,Rot-Weiß Erfurt,Germany
+113,FC Carl Zeiss Jena,Germany
+114,Besiktas JK,Türkiye
+116,FC Aarau,Switzerland
+120,Kocaelispor,Türkiye
+121,Dynamo Moscow,Russia
+122,SK Sturm Graz,Austria
+124,Rangers FC,Scotland
+126,Caykur Rizespor,Türkiye
+127,SC Paderborn 07,Germany
+128,AO Xanthi,Greece
+129,SG Dynamo Dresden,Germany
+130,Parma Calcio 1913,Italy
+131,FC Barcelona,Spain
+132,NAC Breda,Netherlands
+133,SC Cambuur Leeuwarden,Netherlands
+134,Xerez CD,Spain
+135,FK Chmel Blsany,Czech Republic
+139,Kickers Emden,Germany
+141,Galatasaray,Türkiye
+142,Real Zaragoza,Spain
+144,HNK Rijeka,Croatia
+148,Tottenham Hotspur,England
+150,Real Betis Balompié,Spain
+152,Samsunspor,Türkiye
+155,FC Kärnten,Austria
+157,KAA Gent,Belgium
+162,AS Monaco,Monaco
+163,FC Vaduz,Liechtenstein
+164,Blackburn Rovers,England
+166,VfB Oldenburg,Germany
+167,FC Augsburg,Germany
+168,Zaglebie Lubin,Poland
+169,Panionios Athens,Greece
+170,Rapid Vienna,Austria
+171,Real Murcia CF,Spain
+172,Royal Charleroi SC,Belgium
+173,Odense Boldklub,Denmark
+176,Amica Wronki,Poland
+180,Southampton FC,England
+187,1.FC Magdeburg,Germany
+189,CA Boca Juniors,Argentina
+190,FC Copenhagen,Denmark
+192,Roda JC Kerkrade,Netherlands
+195,Rosenborg BK,Norway
+197,AC Sparta Prague,Czech Republic
+199,Sport Club Corinthians Paulista,Brazil
+200,FC Utrecht,Netherlands
+202,FC Groningen,Netherlands
+204,Lierse SK,Belgium
+206,Bröndby IF,Denmark
+209,CA River Plate,Argentina
+210,Grêmio Foot-Ball Porto Alegrense,Brazil
+213,Vác FC,Hungary
+216,Inter Bratislava,Slovakia
+218,San Jose Earthquakes,United States
+221,Santos FC,Brazil
+223,HNK Sibenik,Croatia
+232,Spartak Moscow,Russia
+234,Feyenoord Rotterdam,Netherlands
+235,RKC Waalwijk,Netherlands
+237,RCD Mallorca,Spain
+238,Lech Poznan,Poland
+239,Viking FK,Norway
+242,FC Winterthur,Switzerland
+244,Olympique Marseille,France
+245,SC Freiburg II,Germany
+247,SV Meppen,Germany
+252,Genoa CFC,Italy
+254,SV Sandhausen,Germany
+255,Legia Warszawa,Poland
+256,LKS Lodz,Poland
+257,FC St. Gallen 1879,Switzerland
+260,FC Zürich,Switzerland
+265,Panathinaikos FC,Greece
+266,SV Ried,Austria
+267,IK Start,Norway
+269,Holstein Kiel,Germany
+272,AIK,Sweden
+273,Stade Rennais FC,France
+275,FSV Zwickau,Germany
+276,Hellas Verona,Italy
+279,Ferencvárosi TC,Hungary
+281,Manchester City,England
+288,Club Estudiantes de La Plata,Argentina
+289,Sunderland AFC,England
+290,AJ Auxerre,France
+291,AD São Caetano,Brazil
+293,FSV Frankfurt,Germany
+294,SL Benfica,Portugal
+299,Wuppertaler SV,Germany
+306,SC Heerenveen,Netherlands
+309,Paraná Clube,Brazil
+311,Pohang Steelers,"Korea, South"
+314,HNK Cibalia Vinkovci,Croatia
+316,Grazer AK 1902,Austria
+317,Twente Enschede FC,Netherlands
+318,Ruch Chorzow,Poland
+321,FC Sion,Switzerland
+322,Yverdon Sport FC,Switzerland
+324,Pogon Szczecin,Poland
+327,NK Osijek,Croatia
+330,Clube Atlético Mineiro,Brazil
+331,CA Osasuna,Spain
+332,SSC Bari,Italy
+333,CA Lanús,Argentina
+336,Sporting CP,Portugal
+337,Birmingham City,England
+338,Dynamo Kyiv,Ukraine
+339,Dnipro Dnipropetrovsk,Ukraine
+347,FC Metz,France
+349,Barnsley FC,England
+350,Sheffield United,England
+352,Swindon Town,England
+353,Lillestrøm SK,Norway
+354,KV Mechelen,Belgium
+355,Bolton Wanderers,England
+358,Charlton Athletic,England
+365,Spartak Trnava,Slovakia
+366,Real Valladolid CF,Spain
+367,Rayo Vallecano,Spain
+368,Sevilla FC,Spain
+369,Lyngby Boldklub,Denmark
+370,Aberdeen FC,Scotland
+371,Celtic FC,Scotland
+377,FC Banik Ostrava,Czech Republic
+379,West Ham United,England
+380,US Salernitana 1919,Italy
+383,PSV Eindhoven,Netherlands
+384,MVV Maastricht,Netherlands
+385,Fortuna Sittard,Netherlands
+398,SS Lazio,Italy
+399,Leeds United,England
+403,Willem II Tilburg,Netherlands
+404,FC Den Bosch,Netherlands
+405,Aston Villa,England
+408,Ascoli Calcio,Italy
+409,Red Bull Salzburg,Austria
+410,Udinese Calcio,Italy
+413,LASK,Austria
+415,FC Toulouse,France
+416,Torino FC,Italy
+417,OGC Nice,France
+418,Real Madrid,Spain
+419,GNK Dinamo Zagreb,Croatia
+420,RNK Split,Croatia
+422,Wisla Kraków,Poland
+428,Górnik Zabrze,Poland
+430,ACF Fiorentina,Italy
+432,Chicago Fire FC,United States
+434,FC Luzern,Switzerland
+440,Hallescher FC,Germany
+441,Apollon Smyrnis,Greece
+443,Vejle Boldklub,Denmark
+447,HNK Hajduk Split,Croatia
+449,Trabzonspor,Türkiye
+450,FK Dukla Prague,Czech Republic
+452,BSC Young Boys,Switzerland
+456,HNK Vukovar 1991,Croatia
+458,Palermo FC,Italy
+465,St. Mirren FC,Scotland
+466,Preston North End,England
+467,NEC Nijmegen,Netherlands
+468,Sparta Rotterdam,Netherlands
+472,UD Las Palmas,Spain
+475,Sint-Truidense VV,Belgium
+476,TSV Havelse,Germany
+479,Slezsky FC Opava,Czech Republic
+485,NK Hrvatski Dragovoljac,Croatia
+494,Sporting Club de Toulon,France
+496,Malmö FF,Sweden
+498,KSC Lokeren,Belgium
+499,Vitesse Arnhem,Netherlands
+500,Helmond Sport,Netherlands
+501,FK Bodø/Glimt,Norway
+503,Admira Wacker,Austria
+504,Grasshopper Club Zurich,Switzerland
+506,Juventus FC,Italy
+510,FC Chiasso,Switzerland
+511,Dundee FC,Scotland
+512,Stoke City,England
+518,Sariyer,Türkiye
+520,Cercle Brugge,Belgium
+524,Gaziantepspor,Türkiye
+527,FC Lausanne-Sport,Switzerland
+533,TSG 1899 Hoffenheim,Germany
+537,Botafogo de Futebol e Regatas,Brazil
+540,Slovan Bratislava,Slovakia
+541,SC Austria Lustenau,Austria
+543,Wolverhampton Wanderers,England
+553,Ionikos Nikeas,Greece
+566,Beerschot AC,Belgium
+583,Paris Saint-Germain,France
+585,São Paulo Futebol Clube,Brazil
+589,Antalyaspor,Türkiye
+593,Kyoto Sanga,Japan
+595,SC Bastia,France
+596,Gamba Osaka,Japan
+599,NK Varazdin,Croatia
+600,FK Drnovice,Czech Republic
+601,KV Kortrijk,Belgium
+603,Cardiff City,Wales
+605,Aris Thessaloniki,Greece
+606,Polideportivo Ejido,Spain
+607,Venezia FC,Italy
+609,Cruzeiro Esporte Clube,Brazil
+610,Ajax Amsterdam,Netherlands
+614,CR Flamengo,Brazil
+618,AS Saint-Étienne,France
+619,Louhans-Cuiseaux FC,France
+621,Athletic Bilbao,Spain
+623,New York Red Bulls,United States
+625,Neuchâtel Xamax FCS,Switzerland
+626,New England Revolution,United States
+630,Racing Santander,Spain
+631,Chelsea FC,England
+634,MTK Budapest,Hungary
+641,Middlesbrough FC,England
+642,De Graafschap Doetinchem,Netherlands
+643,HFC Haarlem,Netherlands
+646,Tampa Bay Mutiny,United States
+648,CD Tenerife,Spain
+649,Szombathelyi Haladás,Hungary
+653,OFI Crete FC,Greece
+656,Al-Sadd SC,Qatar
+660,Shakhtar Donetsk,Ukraine
+666,Real Jaén CF,Spain
+667,RC Strasbourg Alsace,France
+668,Sportfreunde Lotte,Germany
+672,JEF United Chiba,Japan
+677,Ipswich Town,England
+678,Aarhus GF,Denmark
+679,Club Athletico Paranaense,Brazil
+681,Real Sociedad,Spain
+683,Olympiacos Piraeus,Greece
+687,Molde FK,Norway
+697,FC Slovan Liberec,Czech Republic
+698,Bristol City,England
+699,Helsingborgs IF,Sweden
+701,Trelleborgs FF,Sweden
+703,Nottingham Forest,England
+704,Calcio Foggia 1920,Italy
+708,Újpest FC,Hungary
+709,Budapest Honvéd FC,Hungary
+714,RCD Espanyol Barcelona,Spain
+715,Bohemians Prague 1905,Czech Republic
+716,GKS Belchatow,Poland
+718,KFC Lommel SK,Belgium
+720,FC Porto,Portugal
+723,Almere City FC,Netherlands
+724,FC Volendam,Netherlands
+738,Le Havre AC,France
+740,Yozgatspor Tic. AS,Türkiye
+747,FC Baden 1897,Switzerland
+749,FC Empoli,Italy
+750,FC Sochaux-Montbéliard,France
+752,SpVgg Bayreuth,Germany
+759,Slask Wroclaw,Poland
+762,Newcastle United,England
+776,Coritiba Foot Ball Club,Brazil
+779,FC VSS Kosice,Slovakia
+797,FK Banik Most,Czech Republic
+798,Excelsior Rotterdam,Netherlands
+800,Atalanta BC,Italy
+801,IFK Göteborg,Sweden
+804,FK Trinec,Czech Republic
+813,Columbus Crew,United States
+814,FK Teplice,Czech Republic
+820,Genclerbirligi Ankara,Türkiye
+825,Eskisehirspor,Türkiye
+826,RC Lens,France
+828,Urawa Red Diamonds,Japan
+830,CA Banfield,Argentina
+833,Denizlispor,Türkiye
+839,AC Perugia Calcio,Italy
+845,Diyarbakirspor,Türkiye
+850,FC Wil 1900,Switzerland
+851,1.FSV Mainz 05 II,Germany
+855,EA Guingamp,France
+856,SV Mattersburg,Austria
+862,Chievo Verona,Italy
+865,FC Midtjylland,Denmark
+868,MKE Ankaragücü,Türkiye
+873,Crystal Palace,England
+875,Adelaide United,Australia
+892,FK Viktoria Zizkov,Czech Republic
+895,AS Cannes,France
+897,Deportivo de La Coruña,Spain
+899,Walsall FC,England
+903,Hibernian FC,Scotland
+918,NK Inker,Croatia
+924,Istanbulspor,Türkiye
+928,Club Atlético Platense,Argentina
+931,Fulham FC,England
+932,Lokomotiv Moscow,Russia
+935,LASK Amateure OÖ,Austria
+936,Schwarz-Weiß Bregenz,Austria
+937,Júbilo Iwata,Japan
+938,FC Thun,Switzerland
+939,SR Delémont,Switzerland
+940,Celta de Vigo,Spain
+941,FC Viktoria Plzen,Czech Republic
+943,Yokohama FC,Japan
+964,Zenit St. Petersburg,Russia
+965,Qatar SC,Qatar
+968,KVC Westerlo,Belgium
+969,Montpellier HSC,France
+970,Perth Glory,Australia
+972,Yeovil Town,England
+976,CF União Madeira,Portugal
+978,Clube de Regatas Vasco da Gama,Brazil
+979,Moreirense FC,Portugal
+982,CD Nacional,Portugal
+983,TSG 1899 Hoffenheim II,Germany
+984,West Bromwich Albion,England
+985,Manchester United,England
+986,Cambridge United,England
+987,Motherwell FC,Scotland
+988,Oxford United,England
+989,AFC Bournemouth,England
+990,Coventry City,England
+991,Milton Keynes Dons,England
+993,Córdoba CF,Spain
+995,FC Nantes,France
+996,TuS Koblenz,Germany
+999,NK Istra 1961,Croatia
+1003,Leicester City,England
+1005,US Lecce,Italy
+1010,Watford FC,England
+1011,Halmstads BK,Sweden
+1020,Portsmouth FC,England
+1022,Cerezo Osaka,Japan
+1023,Sociedade Esportiva Palmeiras,Brazil
+1025,Bologna FC 1909,Italy
+1027,Bradford City,England
+1028,Millwall FC,England
+1029,CA Vélez Sarsfield,Argentina
+1030,AA Argentinos Juniors,Argentina
+1031,Luton Town,England
+1032,Reading FC,England
+1035,Sheffield Wednesday,England
+1038,UC Sampdoria,Italy
+1039,Queens Park Rangers,England
+1041,Olympique Lyon,France
+1042,Crewe Alexandra,England
+1044,Djurgårdens IF,Sweden
+1045,Notts County,England
+1047,Como 1907,Italy
+1049,Valencia CF,Spain
+1050,Villarreal CF,Spain
+1053,Aalborg BK,Denmark
+1055,Enköpings SK,Sweden
+1056,Örebro SK,Sweden
+1057,Bryne FK,Norway
+1058,Odds BK,Norway
+1059,Hammarby IF,Sweden
+1060,Colchester United,England
+1061,Los Angeles Galaxy,United States
+1062,Shimizu S-Pulse,Japan
+1063,Viborg FF,Denmark
+1065,Hannover 96 II,Germany
+1066,Nagoya Grampus,Japan
+1070,CA Colón,Argentina
+1071,Wigan Athletic,England
+1072,Peterborough United,England
+1073,KSK Beveren,Belgium
+1074,Tranmere Rovers,England
+1075,SC Braga,Portugal
+1078,Oldham Athletic,England
+1079,Liaoning FC,China
+1080,Stade Lavallois,France
+1081,CS Sedan-Ardennes,France
+1082,LOSC Lille,France
+1083,FC Rostov,Russia
+1084,Málaga CF,Spain
+1085,Vitória Setúbal FC,Portugal
+1087,UD Salamanca,Spain
+1088,Rochdale AFC,England
+1090,AZ Alkmaar,Netherlands
+1091,PAOK Thessaloniki,Greece
+1092,IF Brommapojkarna,Sweden
+1095,ESTAC Troyes,France
+1096,Royal Antwerp FC,Belgium
+1098,Stockport County,England
+1100,SK Brann,Norway
+1101,IF Elfsborg,Sweden
+1103,Ternana Calcio,Italy
+1104,ACR Messina,Italy
+1105,Ravenna FC,Italy
+1106,Club de Gimnasia y Esgrima La Plata,Argentina
+1108,Deportivo Alavés,Spain
+1109,BK Häcken,Sweden
+1110,Huddersfield Town,England
+1111,SC Eendracht Aalst,Belgium
+1112,Wrexham AFC,Wales
+1118,Örgryte IS,Sweden
+1119,Akratitos Ano Liosion,Greece
+1123,Norwich City,England
+1124,Fakel Voronezh,Russia
+1132,Burnley FC,England
+1134,Associação Atlética Ponte Preta,Brazil
+1145,Miami Fusion,United States
+1146,Club Necaxa,Mexico
+1147,AC Ajaccio,France
+1148,Brentford FC,England
+1150,Leyton Orient,England
+1154,Red Star FC,France
+1158,FC Lorient,France
+1159,AS Nancy-Lorraine,France
+1160,Nîmes Olympique,France
+1161,Chamois Niortais FC,France
+1162,SM Caen,France
+1164,Le Mans FC,France
+1165,FC Martigues,France
+1170,FC Dieppe,France
+1175,LB Châteauroux,France
+1176,Racing Ferrol,Spain
+1177,Silkeborg IF,Denmark
+1181,Blackpool FC,England
+1184,KRC Genk,Belgium
+1186,Torpedo Moscow,Russia
+1191,Falkirk FC,Scotland
+1194,Rotherham United,England
+1198,Lincoln City,England
+1199,Royal Excelsior Virton,Belgium
+1201,FC Denderleeuw EH,Belgium
+1204,Kartalspor,Türkiye
+1210,US Livorno 1915,Italy
+1211,Port Vale FC,England
+1219,Chesterfield FC,England
+1220,Carlisle United,England
+1227,RBC Roosendaal,Netherlands
+1228,TOP Oss,Netherlands
+1230,Al-Arabi SC,Qatar
+1234,CA Independiente,Argentina
+1236,Östers IF,Sweden
+1237,Brighton & Hove Albion,England
+1241,Livingston FC,Scotland
+1244,CD Leganés,Spain
+1245,KAS Eupen,Belgium
+1247,Colorado Rapids,United States
+1253,Lucchese Calcio,Italy
+1264,Malatyaspor,Türkiye
+1267,Manisaspor,Türkiye
+1268,ADO Den Haag,Netherlands
+1269,PEC Zwolle,Netherlands
+1270,Dunfermline Athletic FC,Scotland
+1274,Stabæk Fotball,Norway
+1277,FC Schaffhausen,Switzerland
+1283,FC Emmen,Netherlands
+1284,SC Veendam,Netherlands
+1286,CA Newell\,Argentina
+1287,FC Solothurn,Switzerland
+1290,Grenoble Foot 38,France
+1291,Siirtspor,Türkiye
+1292,Etoile Carouge FC,Switzerland
+1293,Tromsø IL,Norway
+1301,CS Marítimo,Portugal
+1302,Northampton Town,England
+1304,Heracles Almelo,Netherlands
+1305,Odra Wodzislaw Slaski,Poland
+1307,FC Pistoiese,Italy
+1320,Shenzhen FC,China
+1321,SK Dynamo Ceske Budejovice,Czech Republic
+1322,FK Jablonec,Czech Republic
+1326,Chongqing Liangjiang Athletic,China
+1377,Vannes OC,France
+1385,Modena FC,Italy
+1386,Reggina 1914,Italy
+1387,Siena FC,Italy
+1388,Ancona Calcio,Italy
+1389,AGOVV Apeldoorn,Netherlands
+1390,Cagliari Calcio,Italy
+1391,Zalaegerszegi TE FC,Hungary
+1397,FC Gueugnon,France
+1403,Santos Laguna,Mexico
+1408,Piacenza Calcio 1919,Italy
+1411,RAEC Mons,Belgium
+1415,Teramo Calcio 1913,Italy
+1416,Amiens SC,France
+1417,Beringen Heusden-Zolder SK,Belgium
+1418,CA Rosario Central,Argentina
+1420,Angers SCO,France
+1421,Stade Reims,France
+1423,Valenciennes FC,France
+1424,Olympique de Valence,France
+1426,VVV-Venlo,Netherlands
+1429,Cesena FC,Italy
+1433,Excelsior Mouscron,Belgium
+1434,SC Telstar,Netherlands
+1435,Go Ahead Eagles,Netherlands
+1436,SC Beira-Mar,Portugal
+1443,MSK Zilina,Slovakia
+1444,Racing Club,Argentina
+1455,FC Dordrecht,Netherlands
+1465,GD Estoril Praia,Portugal
+1467,Göztepe,Türkiye
+1496,FK Pardubice,Czech Republic
+1506,Kardemir Karabükspor,Türkiye
+1507,Canakkale Dardanel SK,Türkiye
+1508,7 Eylül Turgutlu 1984,Türkiye
+1511,Akcaabat Sebatspor,Türkiye
+1518,Türk Telekomspor,Türkiye
+1519,Dundee United FC,Scotland
+1531,Elche CF,Spain
+1532,Albacete Balompié,Spain
+1533,SD Eibar,Spain
+1536,Burgos CF,Spain
+1557,Würzburger Kickers,Germany
+1562,FC Nitra,Slovakia
+1564,FC Rouen 1899,France
+1622,FC Viktoria Köln,Germany
+1627,Catania FC,Italy
+1693,Londrina Esporte Clube,Brazil
+1701,FC Felgueiras 1932,Portugal
+1749,KFC Verbroedering Geel,Belgium
+1751,América FC,Brazil
+1755,Guarani Futebol Clube,Brazil
+1766,Erzurumspor,Türkiye
+1771,CSD Tristan Suarez,Argentina
+1774,FC Mulhouse,France
+1775,CA San Lorenzo de Almagro,Argentina
+1777,Stade Briochin,France
+1785,Santa Cruz FC,Brazil
+1804,Deportivo Toluca,Mexico
+1826,Quilmes AC,Argentina
+1829,Instituto ACC,Argentina
+1881,Terrassa FC,Spain
+1894,Hvidovre IF,Denmark
+1897,FC Hradec Kralove,Czech Republic
+1910,KFC Dessel Sport,Belgium
+1978,FC Wohlen,Switzerland
+1986,KSZO Ostrowiec Swietokrzyski,Poland
+2029,Ceará Sporting Club,Brazil
+2035,Avaí FC,Brazil
+2036,1.FC Heidenheim 1846,Germany
+2047,AC Bellinzona,Switzerland
+2057,FC Wangen bei Olten,Switzerland
+2058,FC Concordia Basel,Switzerland
+2063,CA Huracán,Argentina
+2067,US Créteil-Lusitanos,France
+2074,SC Kriens,Switzerland
+2079,Veria 1960,Greece
+2118,Wisla Plock,Poland
+2125,Esporte Clube Vitória,Brazil
+2154,CA Chacarita Juniors,Argentina
+2155,FC Biel-Bienne 1896,Switzerland
+2157,FC Blau-Weiss Linz,Austria
+2180,RAA La Louviere,Belgium
+2227,SC Tavriya Simferopol,Ukraine
+2239,US Cremonese,Italy
+2241,Kashima Antlers,Japan
+2250,AC Prato,Italy
+2251,Treviso FBC 1993,Italy
+2253,SEF Torres 1903,Italy
+2254,Pro Sesto 1913,Italy
+2257,Wasquehal Football,France
+2262,Plymouth Argyle,England
+2282,Club Brugge KV,Belgium
+2288,Swansea City,Wales
+2292,Elazigspor,Türkiye
+2293,Konyaspor,Türkiye
+2294,Landskrona BoIS,Sweden
+2296,CD Numancia,Spain
+2298,Szczakowianka Jaworzno,Poland
+2300,Jagiellonia Bialystok,Poland
+2311,SK Sigma Olomouc,Czech Republic
+2321,KMSK Deinze,Belgium
+2323,Orduspor,Türkiye
+2324,Gaziosmanpasa,Türkiye
+2330,Karsiyaka,Türkiye
+2331,US Avellino 1912,Italy
+2362,Slaven Belupo Koprivnica,Croatia
+2374,Shinnik Yaroslavl,Russia
+2375,Altay SK,Türkiye
+2381,Sivasspor,Türkiye
+2402,Defensa y Justicia,Argentina
+2407,CF Monterrey,Mexico
+2410,CSKA Moscow,Russia
+2411,FC Locarno,Switzerland
+2413,Bury FC,England
+2414,AC Horsens,Denmark
+2417,Club Atlético Belgrano,Argentina
+2420,Vitória Guimarães SC,Portugal
+2421,SC Freamunde,Portugal
+2423,CD Santa Clara,Portugal
+2424,Gil Vicente FC,Portugal
+2425,Rio Ave FC,Portugal
+2428,CF União Lamas,Portugal
+2431,CF Estrela Amadora,Portugal
+2432,SC União Torreense,Portugal
+2434,SC Salgueiros,Portugal
+2439,Kuban Krasnodar,Russia
+2440,D.C. United,United States
+2441,AEK Athens,Greece
+2444,FC Wacker Innsbruck,Austria
+2446,WSG Tirol,Austria
+2448,Sporting Gijón,Spain
+2451,Inverness Caledonian Thistle FC,Scotland
+2454,Doncaster Rovers,England
+2455,Bristol Rovers,England
+2457,B SAD,Portugal
+2462,Fluminense Football Club,Brazil
+2463,Sakaryaspor,Türkiye
+2464,FC Barcelona Atlètic,Spain
+2477,Karpaty Lviv,Ukraine
+2478,KRC Zuid-West-Vlaanderen,Belgium
+2497,Real Oviedo,Spain
+2502,CD Castellón,Spain
+2503,Boavista FC,Portugal
+2521,FC Alverca,Portugal
+2553,Kilmarnock FC,Scotland
+2566,HNK Zadar,Croatia
+2577,Hartlepool United,England
+2578,St. Johnstone FC,Scotland
+2580,Istres Football Club,France
+2581,Mantova 1911,Italy
+2582,Busan IPark,"Korea, South"
+2589,SG Sonnenhof Großaspach,Germany
+2598,FK Pribram,Czech Republic
+2618,Olympique d\,France
+2639,UD Leiria,Portugal
+2646,Clube Náutico Capibaribe,Brazil
+2655,LR Vicenza,Italy
+2662,SKN St. Pölten,Austria
+2671,PAS Giannina,Greece
+2672,APO Levadiakos,Greece
+2687,Cádiz CF,Spain
+2696,Krylya Sovetov Samara,Russia
+2697,Sanfrecce Hiroshima,Japan
+2698,Rubin Kazan,Russia
+2700,Anzhi Makhachkala,Russia
+2703,Spartak Vladikavkaz,Russia
+2715,RFC Seraing,Belgium
+2719,Mjällby AIF,Sweden
+2721,Forza e Coraggio Alessandria,Italy
+2722,SPAL,Italy
+2727,Oud-Heverlee Leuven,Belgium
+2737,Leon Saturn Ramenskoe,Russia
+2740,Vorskla Poltava,Ukraine
+2741,Baltika Kaliningrad,Russia
+2742,Obolon Kyiv,Ukraine
+2745,Polonia Warsaw,Poland
+2750,Buca Gelistirme Spor,Türkiye
+2759,Ross County FC,Scotland
+2760,Partick Thistle FC,Scotland
+2761,FK Haugesund,Norway
+2775,Dyskobolia Grodzisk Wielkopolski,Poland
+2776,NK Kamen Ingrad Velika,Croatia
+2778,FC Nordsjaelland,Denmark
+2779,MSK Puchov,Slovakia
+2781,FC Petrzalka,Slovakia
+2783,Metalurg Donetsk,Ukraine
+2790,FC Lugano,Switzerland
+2793,Southend United,England
+2805,Wycombe Wanderers,England
+2814,Gillingham FC,England
+2817,Strømsgodset IF,Norway
+2832,Gaziantep FK,Türkiye
+2843,GIF Sundsvall,Sweden
+2844,IFK Norrköping,Sweden
+2861,KV Oostende,Belgium
+2863,América Futebol Clube,Brazil
+2865,Betis Deportivo Balompié,Spain
+2867,Recreativo Huelva,Spain
+2919,AC Monza,Italy
+2921,Delfino Pescara 1936,Italy
+2923,CD Badajoz,Spain
+2944,Sincan Belediyesi Ankaraspor,Türkiye
+2952,FC Sopron,Hungary
+2963,Burton Albion,England
+2964,Scunthorpe United,England
+2967,Racing Besançon,France
+2968,FC Libourne,France
+2969,Dijon FCO,France
+2972,Football Bourg-en-Bresse Péronnas 01,France
+2973,RWD Molenbeek,Belgium
+2974,Francs Borains,Belgium
+2977,KSV Roeselare,Belgium
+2978,US Lusitanos Saint-Maur,France
+2984,AO Egaleo,Greece
+2990,Académica Coimbra,Portugal
+2995,FC Paços de Ferreira,Portugal
+2996,Incheon United,"Korea, South"
+2999,Hamilton Academical FC,Scotland
+3008,Hull City,England
+3037,Calcio Padova,Italy
+3054,Shrewsbury Town,England
+3057,Standard Liège,Belgium
+3060,Atromitos Athens,Greece
+3062,Athens Kallithea,Greece
+3083,Standaard Wetteren,Belgium
+3134,KFC VW Hamme,Belgium
+3135,AS Beauvais Oise,France
+3146,Olympic Charleroi,Belgium
+3159,RFC Lüttich,Belgium
+3161,Tours FC,France
+3166,Pau FC,France
+3172,CS Visé,Belgium
+3173,Van Spor FK,Türkiye
+3175,August 1st,China
+3176,Beijing Guoan,China
+3178,Dalian Shide,China
+3181,Shaanxi Guoli,China
+3182,Shandong Taishan,China
+3183,Shanghai Shenhua,China
+3187,Tianjin Jinmen Tiger,China
+3188,Yunnan Hongta,China
+3193,New Zealand Knights FC,New Zealand
+3197,Goiás EC,Brazil
+3202,Bakirköyspor,Türkiye
+3205,Kayserispor,Türkiye
+3207,Boluspor,Türkiye
+3209,Pendikspor,Türkiye
+3211,Batman Petrolspor,Türkiye
+3216,Mersin Talimyurdu SK,Türkiye
+3225,Patro Eisden Maasmechelen,Belgium
+3229,Al-Rayyan SC,Qatar
+3230,KFC Turnhout,Belgium
+3233,Pécsi MFC,Hungary
+3234,Tombense Futebol Clube,Brazil
+3239,UE Lleida,Spain
+3267,Leça FC,Portugal
+3268,Casa Pia AC,Portugal
+3271,FC Maia,Portugal
+3274,AD Ovarense,Portugal
+3280,AD Confiança,Brazil
+3291,Gornik Leczna,Poland
+3301,Suwon Samsung Bluewings,"Korea, South"
+3302,UD Almería,Spain
+3315,KVK Tienen,Belgium
+3318,Racing Club de France,France
+3319,Sampaio Corrêa FC,Brazil
+3323,Gondomar SC,Portugal
+3325,GD Chaves,Portugal
+3326,AD Fafe,Portugal
+3327,FC Penafiel,Portugal
+3329,FC Famalicão,Portugal
+3330,Joinville Esporte Clube,Brazil
+3334,Marília AC,Brazil
+3336,Desportivo Aves,Portugal
+3341,CD Olivais e Moscavide,Portugal
+3345,Leixões SC,Portugal
+3348,CD Trofense,Portugal
+3349,CD Feirense,Portugal
+3368,Levante UD,Spain
+3371,Cheltenham Town,England
+3372,Rochester New York FC,United States
+3385,Panserraikos,Greece
+3392,Apollon Kalamarias,Greece
+3395,Tatabányai SC,Hungary
+3426,Esbjerg fB,Denmark
+3455,Forest Green Rovers,England
+3508,Zulte Waregem,Belgium
+3512,Castel Di Sangro CEP 1953,Italy
+3520,Sporting Club Sétois,France
+3522,Spezia Calcio,Italy
+3524,Clermont Foot 63,France
+3525,SO Cholet,France
+3527,Motor Lublin,Poland
+3535,Ulsan HD FC,"Korea, South"
+3537,Crawley Town,England
+3541,La Roche Vendée Football,France
+3545,Pacy Ménilles Racing Club,France
+3549,Bourges 18,France
+3551,SCR Altach,Austria
+3552,BFC Siófok,Hungary
+3558,GFC Ajaccio,France
+3592,Kryvbas Kryvyi Rig,Ukraine
+3609,Rotor Volgograd,Russia
+3610,Seongnam FC,"Korea, South"
+3612,Al-Ahli SC,Qatar
+3622,IFK Värnamo,Sweden
+3631,CF América,Mexico
+3641,Degerfors IF,Sweden
+3654,Kalmar FF,Sweden
+3679,Atlético Madrileño,Spain
+3684,Stevenage FC,England
+3687,Uralan Elista,Russia
+3688,Accrington Stanley,England
+3691,Tom Tomsk,Russia
+3696,Dagenham & Redbridge FC,England
+3697,Morecambe FC,England
+3705,Algeciras CF,Spain
+3708,Barakaldo CF,Spain
+3709,Getafe CF,Spain
+3711,CD Cruz Azul,Mexico
+3719,FC Khimki,Russia
+3725,Akhmat Grozny,Russia
+3728,Union Namur,Belgium
+3729,Arsenal Tula,Russia
+3734,Tokyo Verdy,Japan
+3736,KSK Ronse,Belgium
+3751,RFC Tournai,Belgium
+3772,Royal Union Tubize-Braine,Belgium
+3795,SK Hanacka Slavia Kromeriz,Czech Republic
+3820,Mansfield Town,England
+3828,Yokohama F. Marinos,Japan
+3834,Sokol Saratov,Russia
+3837,Fredrikstad FK,Norway
+3840,Adana Demirspor,Türkiye
+3841,Istanbul Güngörenspor,Türkiye
+3842,Izmirspor,Türkiye
+3846,Usakspor,Türkiye
+3876,Mirassol Futebol Clube,Brazil
+3884,AFC Wimbledon,England
+3892,FC Eindhoven,Netherlands
+3898,RWDM Brussels FC,Belgium
+3901,RAAL La Louvière,Belgium
+3911,Stade Brestois 29,France
+3912,GSI Pontivy,France
+3915,Angoulême Charente FC,France
+3935,Oita Trinita,Japan
+3938,CA Talleres,Argentina
+3948,Union Saint-Gilloise,Belgium
+3958,Vissel Kobe,Japan
+3973,Brasiliense FC,Brazil
+3999,PAS Lamia 1964,Greece
+4000,Lechia Gdansk,Poland
+4030,CD Calahorra,Spain
+4031,Cosenza Calcio,Italy
+4032,SD Ponferradina,Spain
+4033,Fermana FC,Italy
+4035,CF Pachuca,Mexico
+4053,Ciudad Murcia,Spain
+4057,Luch Vladivostok,Russia
+4064,Figueirense Futebol Clube,Brazil
+4078,CF Montréal,Canada
+4083,FC Crotone,Italy
+4084,AS Cittadella,Italy
+4085,Fidelis Andria 2018,Italy
+4086,AS Lodigiani Calcio 1972,Italy
+4087,Atletico Catania,Italy
+4093,Taranto SS,Italy
+4095,AC Trento,Italy
+4096,SS Turris Calcio,Italy
+4097,US Catanzaro,Italy
+4102,AC Carpi,Italy
+4103,FC Lumezzane,Italy
+4104,FC Esperia Viareggio,Italy
+4106,Casertana FC,Italy
+4111,Rimini FC,Italy
+4113,US Massese 1919,Italy
+4114,Nocerina Calcio,Italy
+4115,Charleston Battery,United States
+4128,Amkar Perm,Russia
+4146,Aurora Pro Patria,Italy
+4150,AC Cuneo 1905 Olmo,Italy
+4153,L\,Italy
+4159,Carrarese Calcio 1908,Italy
+4163,US Fiorenzuola 1922,Italy
+4167,1913 Seregno Calcio,Italy
+4171,Benevento Calcio,Italy
+4172,Pisa Sporting Club,Italy
+4176,Volta Redonda Futebol Clube,Brazil
+4254,ASD Giulianova,Italy
+4255,SS Arezzo,Italy
+4271,US Triestina,Italy
+4284,Sporting Kansas City,United States
+4290,Pittsburgh Riverhounds SC,United States
+4291,Portland Timbers,United States
+4294,SC Farense,Portugal
+4297,Varzim SC,Portugal
+4309,Hamarkameratene,Norway
+4324,Imolese Calcio 1919,Italy
+4326,AS Gubbio 1910,Italy
+4330,US Sambenedettese,Italy
+4331,FC Trapani 1905,Italy
+4333,US Grosseto 1912,Italy
+4337,Acireale Calcio,Italy
+4338,Virtus Ciserano Bergamo 1909,Italy
+4339,Aquila Montevarchi 1902,Italy
+4341,US Savoia 1908,Italy
+4361,Varese Calcio,Italy
+4380,Assyriska FF,Sweden
+4414,Gefle IF,Sweden
+4441,Wolfsberger AC,Austria
+4467,TSV Hartberg,Austria
+4482,Volyn Lutsk,Ukraine
+4488,CD Irapuato,Mexico
+4529,DAC Dunajska Streda,Slovakia
+4531,FC Tatran Presov,Slovakia
+4537,SC Xaverov Horni Pocernice,Czech Republic
+4541,UC AlbinoLeffe,Italy
+4542,Cultural Leonesa,Spain
+4544,Sora Calcio 1907,Italy
+4550,Legnano AC,Italy
+4553,US Pergolettese 1932,Italy
+4554,FC Südtirol,Italy
+4557,Club Ferro Carril Oeste,Argentina
+4558,Martina Calcio 1947,Italy
+4565,Tecos FC,Mexico
+4573,Amasyaspor,Türkiye
+4574,Gümüshanespor,Türkiye
+4603,AE Larisa,Greece
+4630,Al-Sailiya SC,Qatar
+4673,Arsenal FC,Argentina
+4718,SS Virtus Lanciano,Italy
+4750,SC Olhanense,Portugal
+4768,Changchun Yatai,China
+4773,Ituano Futebol Clube,Brazil
+4774,Jaguares FC,Mexico
+4786,Dukla Banska Bystrica,Slovakia
+4787,Dunaújváros FC,Hungary
+4795,FC Ingolstadt 04,Germany
+4814,Associação Naval 1893,Portugal
+4864,Clube Oriental Lissabon,Portugal
+4868,Gornik Polkowice,Poland
+4941,Club León FC,Mexico
+4961,Querétaro FC,Mexico
+5026,Lommel SK,Belgium
+5086,SO Romorantin,France
+5107,NK Zagreb,Croatia
+5138,Tiburones Rojos de Veracruz,Mexico
+5163,Brindisi FC,Italy
+5174,Pavia Calcio 1911,Italy
+5202,Västerås SK,Sweden
+5208,CA Los Andes,Argentina
+5219,AO Kerkyraikos,Greece
+5220,GS Ergotelis,Greece
+5225,FC Zbrojovka Brno,Czech Republic
+5227,Atlético CP,Portugal
+5243,Parma Primavera,Italy
+5268,FC Moscow,Russia
+5310,Villemomble Sports,France
+5358,SD Huesca,Spain
+5378,Vasas FC,Hungary
+5380,Inter Milan Primavera,Italy
+5381,Al-Khor SC,Qatar
+5399,Szolnoki MÁV FC,Hungary
+5407,SR Colmar,France
+5499,FC Stade-Lausanne-Ouchy,Switzerland
+5507,FC Stade Nyonnais,Switzerland
+5514,Calcio Lecco 1912,Italy
+5542,CPR Ospitaletto,Italy
+5543,Chieti Calcio,Italy
+5544,1.FC Slovacko,Czech Republic
+5545,FC Zlin,Czech Republic
+5546,FK Mlada Boleslav,Czech Republic
+5551,Newcastle United Jets,Australia
+5585,Barletta 1922,Italy
+5587,SS Juve Stabia,Italy
+5595,Mardinspor,Türkiye
+5615,Alma Juventus Fano 1906,Italy
+5618,Lecce Primavera,Italy
+5619,Aalesunds FK,Norway
+5621,AC Reggiana 1919,Italy
+5623,Club Atlético Morelia,Mexico
+5648,Gimnàstic de Tarragona,Spain
+5649,Atlético Malagueño,Spain
+5650,Pontevedra CF,Spain
+5659,US Ivry Football,France
+5662,Puebla FC,Mexico
+5677,Vila Nova Futebol Clube,Brazil
+5689,Cracovia,Poland
+5724,Randers FC,Denmark
+5743,Turan Spor,Türkiye
+5773,AS Cherbourg,France
+5776,FC Fredericia,Denmark
+5817,Sönderjyske Fodbold,Denmark
+5818,Hobro IK,Denmark
+6038,SK Sigma Olomouc B,Czech Republic
+6049,Békéscsaba 1912 Elöre SE,Hungary
+6052,Büki TK,Hungary
+6055,ETO FC Győr,Hungary
+6056,Kaposvári Rákóczi FC,Hungary
+6058,Nyíregyháza Spartacus,Hungary
+6062,CA Defensores de Belgrano,Argentina
+6071,Chengdu Tiancheng,China
+6087,NK Medjimurje Cakovec,Croatia
+6089,Casarano Calcio,Italy
+6107,Arka Gdynia,Poland
+6110,Korona Kielce,Poland
+6112,Piast Gliwice,Poland
+6139,Åtvidabergs FF,Sweden
+6163,FK Senica,Slovakia
+6190,Swit Nowy Dwor Mazowiecki,Poland
+6195,SSC Napoli,Italy
+6201,FC Banik Ostrava B,Czech Republic
+6266,Cavese 1919,Italy
+6297,Al-Gharafa SC,Qatar
+6304,KSV Oudenaarde,Belgium
+6306,KVK Ninove,Belgium
+6321,Vancouver Whitecaps FC,Canada
+6342,White Star Brussels,Belgium
+6347,Paysandu SC,Brazil
+6351,Sangiovannese 1927,Italy
+6361,Podbeskidzie Bielsko-Biala,Poland
+6372,ES Viry-Châtillon,France
+6377,FK Viagem Usti nad Labem,Czech Republic
+6380,SK Kladno,Czech Republic
+6395,Vegalta Sendai,Japan
+6399,Sandefjord Fotball,Norway
+6414,Metalist Kharkiv,Ukraine
+6418,Panetolikos GFS,Greece
+6450,Wuhan Yangtze,China
+6456,GKS Katowice,Poland
+6464,FK AS Pardubice,Czech Republic
+6474,FK Kunovice,Czech Republic
+6475,1.HFK Olomouc,Czech Republic
+6483,AC Sparta Prague B,Czech Republic
+6499,Daejeon Hana Citizen,"Korea, South"
+6500,FC Seoul,"Korea, South"
+6502,Jeonbuk Hyundai Motors,"Korea, South"
+6503,Jeonnam Dragons,"Korea, South"
+6504,Daegu FC,"Korea, South"
+6505,Gimcheon Sangmu,"Korea, South"
+6541,SK Slavia Prague B,Czech Republic
+6560,Zaglebie Sosnowiec,Poland
+6572,Montpellier HSC B,France
+6574,US Sassuolo,Italy
+6600,Sport Club Internacional,Brazil
+6630,Sanliurfaspor,Türkiye
+6631,FC Tokyo,Japan
+6632,Kashiwa Reysol,Japan
+6642,CD Chivas USA,United States
+6643,Real Salt Lake City,United States
+6646,Fatih Karagümrük,Türkiye
+6676,Asteras Aktor,Greece
+6688,Bilbao Athletic,Spain
+6692,Novara FC,Italy
+6699,Exeter City,England
+6709,CF Atlante,Mexico
+6711,Deportivo Guadalajara,Mexico
+6763,Football Club Mantois,France
+6767,Real Madrid Castilla,Spain
+6890,Basaksehir FK,Türkiye
+6894,Kayseri Erciyesspor,Türkiye
+6912,FC Vizela,Portugal
+6945,Crystal Palace U21,England
+6954,Central Coast Mariners,Australia
+6992,Chornomorets Odesa,Ukraine
+6993,FC Mariupol,Ukraine
+6994,Metalurg Zaporizhya,Ukraine
+6996,Goverla Uzhgorod,Ukraine
+7006,Melbourne Victory,Australia
+7009,GAIS,Sweden
+7014,Sociedade Esportiva do Gama,Brazil
+7030,Vis Pesaro 1898,Italy
+7042,US Boulogne,France
+7055,Tigres UANL,Mexico
+7056,CD Mafra,Portugal
+7077,FC Cartagena,Spain
+7087,MFK Ruzomberok,Slovakia
+7088,Fethiyespor,Türkiye
+7097,CA Unión,Argentina
+7119,UD Vilafranquense,Portugal
+7124,Quevilly - Rouen Métropole,France
+7146,Warta Poznan,Poland
+7154,Radomiak Radom,Poland
+7160,Eyüpspor,Türkiye
+7178,Criciúma Esporte Clube,Brazil
+7179,CD Tondela,Portugal
+7185,Panthrakikos Komotini,Greece
+7197,Potenza Calcio,Italy
+7209,ABC Futebol Clube,Brazil
+7378,Portimonense SAD,Portugal
+7392,Spartak Dubnica nad Vahom,Slovakia
+7411,Jönköpings Södra IF,Sweden
+7452,RB Omiya Ardija,Japan
+7468,Club Olimpo,Argentina
+7478,EC Santo André,Brazil
+7633,UNAM Pumas,Mexico
+7682,Pápai Perutz FC,Hungary
+7722,Vendée Fontenay Foot,France
+7773,KSC Lokeren,Belgium
+7775,Hatayspor,Türkiye
+7788,Académico Viseu FC,Portugal
+7805,MFK Chrudim,Czech Republic
+7831,Brisbane Roar,Australia
+7882,US Raon-l\,France
+7918,AS Trencin,Slovakia
+7945,IK Sirius,Sweden
+7971,Hércules CF,Spain
+7975,FC Vysocina Jihlava,Czech Republic
+7976,Polonia Bytom,Poland
+8024,FC Arouca,Portugal
+8054,Sydney FC,Australia
+8057,CA Atlanta,Argentina
+8077,US Vibonese,Italy
+8146,FC Senec,Slovakia
+8152,RC Lens B,France
+8158,OGC Nice B,France
+8178,Entente Sannois Saint-Gratien,France
+8179,FC Metz B,France
+8189,Lusitânia FC Lourosa,Portugal
+8235,FR Haguenau,France
+8241,SC Schiltigheim,France
+8304,Città di Gela,Italy
+8344,Albirex Niigata,Japan
+8356,Club Villa Dálmine,Argentina
+8373,Siracusa Calcio,Italy
+8424,Vilaverdense FC,Portugal
+8427,Royal Cappellen FC,Belgium
+8445,Wellington Phoenix,New Zealand
+8457,Shonan Bellmare,Japan
+8463,FC Rapperswil-Jona,Switzerland
+8490,Cizrespor,Türkiye
+8492,Empoli Primavera,Italy
+8505,Fiorentina Primavera,Italy
+8512,Paris Saint-Germain B,France
+8513,Ternana Primavera,Italy
+8515,AS Saint-Étienne B,France
+8516,CA Osasuna Promesas,Spain
+8517,Genoa U20,Italy
+8519,Sevilla Atlético,Spain
+8523,NAC Breda U21,Netherlands
+8524,Olympique de Marseille B,France
+8525,Pescara Primavera,Italy
+8536,Qingdao Hainiu,China
+8539,Yanbian Funde,China
+8541,FK Varnsdorf,Czech Republic
+8568,AD Ceuta FC,Spain
+8579,ASD Manfredonia Calcio,Italy
+8590,Atlas Guadalajara,Mexico
+8684,FC Hlucin,Czech Republic
+8685,MFK Vitkovice,Czech Republic
+8698,Grêmio Barueri Futebol Ltda.,Brazil
+8705,AS Moulins Football,France
+8718,Sport Club do Recife,Brazil
+8728,Aviron Bayonnais,France
+8733,RC Celta Fortuna,Spain
+8738,AS Pizzighettone,Italy
+8793,Red Bull Bragantino,Brazil
+8816,FC Dallas,United States
+8817,Ajax Amsterdam U21,Netherlands
+8827,UD Oliveirense,Portugal
+8835,Spartak Nalchik,Russia
+8838,Zirka Kropyvnytskyi,Ukraine
+8877,AFC Eskilstuna,Sweden
+8890,FC Zbrojovka Brno B,Czech Republic
+8936,Miedz Legnica,Poland
+8950,Canet Roussillon FC,France
+8970,Frosinone Calcio,Italy
+9005,Willem II Tilburg U21,Netherlands
+9007,Arsenal Kyiv,Ukraine
+9010,FCV Dender EH,Belgium
+9030,Botafogo FC,Brazil
+9055,Stomil Olsztyn,Poland
+9168,Houston Dynamo FC,United States
+9202,USL Dunkerque,France
+9239,Ruch Radzionkow,Poland
+9241,Diósgyőri VTK,Hungary
+9249,Arsenal FC U21,England
+9250,Chelsea FC U21,England
+9251,Manchester United U21,England
+9252,Liverpool FC U21,England
+9253,Newcastle United U21,England
+9254,Tottenham Hotspur U21,England
+9256,Middlesbrough FC U21,England
+9258,Blackburn Rovers U21,England
+9259,Bolton Wanderers B,England
+9261,Everton FC U21,England
+9262,Fulham FC U21,England
+9264,Sunderland AFC U21,England
+9265,Manchester City U21,England
+9267,West Ham United U21,England
+9353,Atletico Roma,Italy
+9371,Toulouse FC B,France
+9439,Feralpisalò,Italy
+9597,Avispa Fukuoka,Japan
+9598,Kawasaki Frontale,Japan
+9614,Östersunds FK,Sweden
+9636,Seattle Sounders FC,United States
+9638,CB Ramón Santamarina,Argentina
+9644,Raków Częstochowa,Poland
+9668,AS Monaco U21,Monaco
+9681,AS Verbroedering Geel,Belgium
+9690,FC Bassano,Italy
+9715,PSV Eindhoven U21,Netherlands
+9802,Le Mans FC B,France
+9804,FC Rupel Boom,Belgium
+9816,Forlì FC,Italy
+9818,Giugliano Calcio 1928,Italy
+9826,Olbia Calcio 1905,Italy
+9881,Jura Sud Foot,France
+9888,KSK Heist,Belgium
+9899,Real Sociedad B,Spain
+9902,Vendée Poiré Football,France
+9980,Zacatepec FC,Mexico
+9982,Henan FC,China
+10003,Poissy FC,France
+10004,Paris FC,France
+10010,Esporte Clube Bahia,Brazil
+10091,Dorados de Sinaloa,Mexico
+10107,UR La Louvière Centre,Belgium
+10118,Sorrento 1945,Italy
+10131,SV Grödig,Austria
+10140,SC Covilhã,Portugal
+10155,San Marino,Italy
+10217,Sarpsborg 08 FF,Norway
+10233,AMSD Atlético de Rafaela,Argentina
+10247,Portuguesa,Brazil
+10314,NK Karlovac 1919,Croatia
+10330,SL Benfica B,Portugal
+10331,FC Porto B,Portugal
+10348,Gallipoli Calcio,Italy
+10370,Racing Club Harelbeke,Belgium
+10403,CA Racing,Argentina
+10407,Luzenac Ariège Pyrénées,France
+10483,Hacettepe Spor,Türkiye
+10484,Kasimpasa,Türkiye
+10492,Esporte Clube Juventude,Brazil
+10507,Varbergs BoIS,Sweden
+10511,CA San Martín,Argentina
+10512,KVC Winkel Sport,Belgium
+10534,CA Nueva Chicago,Argentina
+10560,Grêmio Esportivo Brasil,Brazil
+10670,AS Melfi,Italy
+10672,Marcianise,Italy
+10690,Zorya Lugansk,Ukraine
+10718,FC Andorra,Andorra
+10774,SO Châtellerault,France
+10775,Al-Shamal SC,Qatar
+10787,CS Marítimo B,Portugal
+10789,SC Braga B,Portugal
+10820,AJ Auxerre B,France
+10825,FC Sochaux-Montbéliard B,France
+10838,SAS Epinal,France
+10846,ESTAC Troyes B,France
+10850,FC Nantes B,France
+10867,AS Béziers,France
+10868,US Orléans,France
+10870,Fortaleza Esporte Clube,Brazil
+10872,FC Girondins Bordeaux B,France
+10874,Stade Bordelais,France
+10885,Club Atlético Gimnasia y Esgrima,Argentina
+10907,Zamora CF,Spain
+10920,Umm Salal SC,Qatar
+10948,Guangzhou FC,China
+10949,Sporting CP B,Portugal
+10958,AC Milan Primavera,Italy
+10959,Udinese Primavera,Italy
+10997,Clube do Remo,Brazil
+10999,Ventforet Kofu,Japan
+11000,CD Lugo,Spain
+11008,Juventus Primavera,Italy
+11057,Hoogstraten VV,Belgium
+11083,NK Rudes,Croatia
+11095,Ispartaspor,Türkiye
+11107,Videoton FC Fehérvár,Hungary
+11116,FK Caslav,Czech Republic
+11117,FK Banik Sokolov 1948,Czech Republic
+11126,Mordovia Saransk,Russia
+11127,Ural Yekaterinburg,Russia
+11141,Toronto FC,Canada
+11153,Moulins-Yzeure Foot 03,France
+11154,NEC Nijmegen U21,Netherlands
+11177,Fleetwood Town,England
+11194,NK Lokomotiva Zagreb,Croatia
+11204,Stade Reims B,France
+11207,Aurillac FC,France
+11228,North Carolina FC,United States
+11245,UD San Sebastián de los Reyes,Spain
+11259,CD Alcoyano,Spain
+11273,Rodez AF,France
+11282,Alanyaspor,Türkiye
+11300,Athlétic Club Arlésien,France
+11337,Città di Foligno 1928,Italy
+11338,Mjøndalen IF,Norway
+11368,AZ Alkmaar U21,Netherlands
+11374,Jeanne d\,France
+11422,CE Sabadell FC,Spain
+11449,Clube de Regatas Brasil,Brazil
+11466,RUFC Calais,France
+11493,Palermo Primavera,Italy
+11596,AD Alcorcón,Spain
+11602,CP Cacereño,Spain
+11676,Cagliari Primavera,Italy
+11688,Giresunspor,Türkiye
+11693,San Luis FC,Mexico
+11831,Club Atlético Tigre,Argentina
+11972,Villarreal CF B,Spain
+11997,Roma U20,Italy
+11998,Atalanta Primavera,Italy
+12000,Reggina Primavera,Italy
+12001,Sampdoria Primavera,Italy
+12005,FC ViOn Zlate Moravce-Vrable,Slovakia
+12100,CA All Boys,Argentina
+12124,Aston Villa U21,England
+12130,Torino Primavera,Italy
+12150,Colibríes de Morelos,Mexico
+12163,Paksi FC,Hungary
+12179,CS Independiente Rivadavia,Argentina
+12181,San Fernando CD,Spain
+12276,Olympique Saint-Quentin,France
+12292,Indios de Ciudad Juárez,Mexico
+12301,CA Aldosivi,Argentina
+12321,Girona FC,Spain
+12351,Linares Deportivo,Spain
+12361,Marbella FC,Spain
+12374,Altinordu FK,Türkiye
+12380,Darica Genclerbirligi,Türkiye
+12381,1461 Trabzon,Türkiye
+12382,Amed SK,Türkiye
+12388,Ankara Keciörengücü,Türkiye
+12390,MKE Kirikkalespor,Türkiye
+12405,Real Unión Club,Spain
+12423,Kecskeméti TE,Hungary
+12424,FC Le Mont LS,Switzerland
+12452,Kahramanmaras Spor,Türkiye
+12454,CA Sarmiento,Argentina
+12456,Türkgücü München,Germany
+12458,Club Deportivo Morón,Argentina
+12474,Avoine Olympique Chinon Cinais,France
+12563,CA Alvarado,Argentina
+12567,CD Eldense,Spain
+12574,CD Godoy Cruz Antonio Tomba,Argentina
+12605,Real Balompédica Linense,Spain
+12647,Papai ELC,Hungary
+12671,US Albi,France
+12672,Club Almirante Brown,Argentina
+12681,CA Chaco For Ever,Argentina
+12709,Club Atlético San Martín,Argentina
+12714,Alacranes de Durango,Mexico
+12728,Tampico Madero,Mexico
+12748,EA Guingamp B,France
+12764,Olympique Lyon B,France
+12765,LOSC Lille B,France
+12770,SM Caen B,France
+12813,Livorno Primavera,Italy
+12816,Lazio U20,Italy
+12819,Napoli Primavera,Italy
+12823,Fotbal Fulnek,Czech Republic
+12825,SK Sparta Krc,Czech Republic
+12861,FK Strizkov,Czech Republic
+13222,CD Mirandés,Spain
+13225,CF Reus Deportiu,Spain
+13240,Sestao River,Spain
+13241,UD Ibiza,Spain
+13299,FC Sellier & Bellot Vlasim,Czech Republic
+13339,CA Colegiales,Argentina
+13341,CSD Flandria,Argentina
+13353,Club Tijuana,Mexico
+13354,Correcaminos de la UAT,Mexico
+13357,Lobos BUAP,Mexico
+13358,Petroleros de Salamanca Catedráticos FC,Mexico
+13360,Real Colima,Mexico
+13362,CD Tapatío,Mexico
+13383,Santos Laguna II,Mexico
+13414,Rákospalotai EAC,Hungary
+13466,FC Versailles 78,France
+13473,Nazilli Spor,Türkiye
+13509,Al-Wakrah SC,Qatar
+13523,Les Herbiers VF,France
+13549,CA Boca Unidos,Argentina
+13562,Savona FBC,Italy
+13571,La Vitréenne FC,France
+13650,CS Estudiantes,Argentina
+13651,CA San Telmo,Argentina
+13702,CF Rayo Majadahonda,Spain
+13716,1.SC Znojmo FK,Czech Republic
+13718,1.SK Prostejov,Czech Republic
+13726,MFK Karvina,Czech Republic
+13744,Zemplin Michalovce,Slovakia
+13753,MFK Vyskov,Czech Republic
+13903,MSK Rimavska Sobota,Slovakia
+14171,Thonon Évian Grand Genève FC,France
+14201,US Marseille Endoume,France
+14312,CA Estudiantes,Argentina
+14318,CS Deportivo Madryn,Argentina
+14390,Brusque Futebol Clube,Brazil
+14517,SZEOL SC,Hungary
+14519,CA Talleres,Argentina
+14542,CA Temperley,Argentina
+14554,Club Atlético Tucumán,Argentina
+14585,Soroksár SC,Hungary
+14589,FC Orenburg,Russia
+14602,AA Estudiantes,Argentina
+14670,CA Central Norte,Argentina
+14681,CA Brown,Argentina
+14683,Club Social y Atlético Guillermo Brown,Argentina
+14687,Gimnasia y Esgrima de Mendoza,Argentina
+14688,Club de Gimnasia y Tiro,Argentina
+14694,Como Primavera,Italy
+14718,CA Douglas Haig,Argentina
+14725,FC Groningen U21,Netherlands
+14796,CF La Nucía,Spain
+14821,Pisa Primavera,Italy
+14829,Brescia Primavera,Italy
+14845,Chievo Primavera,Italy
+14848,Bologna Primavera,Italy
+14861,AlbinoLeffe Primavera,Italy
+14888,US Città di Pontedera,Italy
+14893,Spezia Primavera,Italy
+14902,Avellino Primavera,Italy
+14907,Bari Primavera,Italy
+14908,Modena Primavera,Italy
+14909,Ascoli Picchio Primavera,Italy
+14925,Vicenza Primavera,Italy
+14926,Perugia Primavera,Italy
+14933,Beykoz Ishakli Spor,Türkiye
+14968,Salernitana Primavera,Italy
+14977,Club Almagro,Argentina
+15064,Guaratinguetá,Brazil
+15099,Padova Primavera,Italy
+15136,Vitória Guimarães SC B,Portugal
+15172,Atlético Clube Goianiense,Brazil
+15374,Portogruaro Calcio,Italy
+15414,Sportivo Belgrano,Argentina
+15439,AC Le Havre B,France
+15882,Ferroviária,Brazil
+15889,Gold Coast United,Australia
+15906,Bruk-Bet Termalica Nieciecza,Poland
+16022,Antequera CF,Spain
+16026,Atlético Mexiquense,Mexico
+16032,Hokkaido Consadole Sapporo,Japan
+16051,Arras Football Association,France
+16122,Arenas Club,Spain
+16178,Chiapas FC Premier,Mexico
+16190,Montedio Yamagata,Japan
+16196,UE Cornellà,Spain
+16239,Desna Chernigiv,Ukraine
+16245,FC Sevastopol,Ukraine
+16247,PFC Stal Kamyanske,Ukraine
+16364,Tecos FC II,Mexico
+16441,ADRC Icasa,Brazil
+16479,Raya2 Expansión,Mexico
+16486,CF Fuenlabrada,Spain
+16492,UD Melilla,Spain
+16575,SD Amorebieta,Spain
+16576,CD Guadalajara,Spain
+16662,FC Lorient B,France
+16672,Angers SCO B,France
+16696,Gyeongnam FC,"Korea, South"
+16704,FC Krasnodar,Russia
+16795,Granada CF,Spain
+16885,Penn FC,United States
+16902,Wilmington Hammerheads,United States
+16931,Richmond Kickers,United States
+16996,Hellas Verona Primavera,Italy
+17130,AS Saint-Priest,France
+17131,ASM Belfort,France
+17198,Cremonese Primavera,Italy
+17208,Budaörsi SC,Hungary
+17238,Shanghai Shenxin,China
+17250,Beijing Chengfeng,China
+17257,Venezia Primavera,Italy
+17276,Zhejiang FC,China
+17442,Football Club Fleury 91,France
+17561,Boa EC,Brazil
+17596,FC Utrecht U21,Netherlands
+17664,Frosinone Primavera,Italy
+17665,Les Genêts d\,France
+17668,De Graafschap Doetinchem U21,Netherlands
+17707,US Jeanne d\,France
+17768,Lyon - La Duchère,France
+17775,ADO Den Haag U21,Netherlands
+17776,Associação Chapecoense de Futebol,Brazil
+17832,Tokushima Vortis,Japan
+17976,Club Atlético Morelia II,Mexico
+18026,FC Twente Enschede U21,Netherlands
+18105,PFC Lviv,Ukraine
+18179,Go Ahead Eagles Deventer U21,Netherlands
+18229,Indios de Ciudad Juárez II,Mexico
+18303,FC Oleksandriya,Ukraine
+18545,Centro Sportivo Alagoano,Brazil
+18576,CF La Piedad,Mexico
+18632,Halcones de Querétaro,Mexico
+18633,FC Villefranche-Beaujolais,France
+18642,Campobasso FC,Italy
+18662,Venados FC Yucatán,Mexico
+18687,CD Atlético Baleares,Spain
+18689,CD Guaraní Antonio Franco,Argentina
+18858,FC Slavoj Vysehrad,Czech Republic
+18916,Guangzhou City,China
+18940,RFC Knokke,Belgium
+18950,FC Matera,Italy
+18957,FK Loko Prague,Czech Republic
+18963,Spartak Myjava,Slovakia
+19083,FK Frydek-Mistek,Czech Republic
+19099,Cittadella Primavera,Italy
+19114,Sassuolo Primavera,Italy
+19164,Paganese Calcio 1926,Italy
+19189,Pioneros de Ciudad Obregón,Mexico
+19301,CD Teruel,Spain
+19334,Südtirol Primavera,Italy
+19367,Tritium Calcio 1908,Italy
+19523,Club Deportivo Maipú,Argentina
+19585,Al-Kharaitiyat SC,Qatar
+19634,CA San Miguel,Argentina
+19657,Vendsyssel FF,Denmark
+19684,Jeju SK,"Korea, South"
+19723,Northern Fury FC,Australia
+19771,Akhisarspor,Türkiye
+19775,Club Deportivo Riestra,Argentina
+19789,Yeni Malatyaspor,Türkiye
+19806,CA Patronato,Argentina
+20035,AS Vitré,France
+20063,Zeleziarne Podbrezova,Slovakia
+20092,Agremiação Sportiva Arapiraquense,Brazil
+20100,FC Vestsjaelland,Denmark
+20106,Cesena Primavera,Italy
+20116,Leeds United U21,England
+20298,Almere City FC U23,Netherlands
+20299,FC Volendam U21,Netherlands
+20300,PEC Zwolle U21,Netherlands
+20303,SC Cambuur-Leeuwarden U21,Netherlands
+20333,Düzcespor,Türkiye
+20406,Reggiana Primavera,Italy
+20518,US Chantilly,France
+20519,Virtus Entella,Italy
+20528,CE Europa,Spain
+20611,Tatran Liptovsky Mikulas,Slovakia
+20664,Menemen FK,Türkiye
+20684,Artvin Hopaspor,Türkiye
+20687,Delfines de Coatzacoalcos,Mexico
+20698,Balikesirspor,Türkiye
+20707,Corluspor,Türkiye
+20758,MFK Dukla Banska Bystrica,Slovakia
+20760,Bandirmaspor,Türkiye
+20778,Agrispor,Türkiye
+20844,Real Avilés Industrial,Spain
+21101,Kristiansund BK,Norway
+21288,Voltigeurs de Châteaubriant,France
+21322,Atlético Sanluqueño CF,Spain
+21331,Nuovo Pordenone 2024 FC,Italy
+21337,Yeclano Deportivo,Spain
+21345,BKV Előre SC,Hungary
+21459,Gangwon FC,"Korea, South"
+21474,SS Maceratese 1922,Italy
+21550,Recreativo Granada,Spain
+21599,Luverdense EC,Brazil
+21674,Sainte-Geneviève Sports,France
+21676,Andrézieux-Bouthéon FC,France
+21688,US Concarneau,France
+21829,Oeste FC,Brazil
+21918,CA Unión,Argentina
+21957,AO Platanias,Greece
+21974,Albinegros de Orizaba,Mexico
+21976,Százhalombattai LK,Hungary
+22041,AS Pescina Valle del Giovenco,Italy
+22045,Latina Calcio 1932,Italy
+22110,FC Helsingør,Denmark
+22171,Fagiano Okayama,Japan
+22177,Sagan Tosu,Japan
+22219,Jiangsu FC,China
+22249,Audace Cerignola,Italy
+22275,AS Bisceglie 1913,Italy
+22276,SPAL Primavera,Italy
+22294,US Viterbese 1908,Italy
+22302,Lupa Roma FC,Italy
+22336,Juve Stabia Primavera,Italy
+22408,ASD Team Altamura,Italy
+22431,Stal Mielec,Poland
+22516,Budapesti VSC - Zugló,Hungary
+22610,Gyirmót FC Győr,Hungary
+22714,Cobras de Ciudad Juárez,Mexico
+22799,US Marignane,France
+23012,Académicos de Atlas,Mexico
+23014,Huracanes Colima FC,Mexico
+23184,KFUM-Kameratene Oslo,Norway
+23206,ES Pays d\,France
+23208,FC Montceau Bourgogne,France
+23360,Mâcon 71,France
+23390,AC Boulogne-Billancourt,France
+23505,CD Leones Negros de la UdeG,Mexico
+23509,Saint-Colomban Locminé,France
+23565,Tampa Bay Rowdies,United States
+23568,Machida Zelvia,Japan
+23581,V-Varen Nagasaki,Japan
+23611,Olimpik Donetsk,Ukraine
+23667,TKI Tavsanli Linyitspor,Türkiye
+23826,RB Leipzig,Germany
+24012,FC Ajka,Hungary
+24013,Hévíz SK,Hungary
+24017,Ceglédi VSE,Hungary
+24023,Kozármisleny FC,Hungary
+24031,Kazincbarcikai SC,Hungary
+24032,Mezőkövesd Zsóry FC,Hungary
+24063,Stade Plabennecois,France
+24212,Birmingham City U21,England
+24214,Burnley FC U21,England
+24219,Stoke City U21,England
+24226,Wolverhampton Wanderers U21,England
+24245,Ümraniyespor,Türkiye
+24260,FC Tulsa,United States
+24279,KVV Coxyde,Belgium
+24325,SK Artis Brno,Czech Republic
+24366,Feyenoord U21,Netherlands
+24368,SC Heerenveen U21,Netherlands
+24394,Standard de Liège 16 FC,Belgium
+24420,UD Logroñés,Spain
+24575,HNK Gorica,Croatia
+24749,CA Defensores Unidos,Argentina
+24898,AC Renate,Italy
+25032,RFC Mandel United,Belgium
+25114,Blois Football 41,France
+25184,CA Barracas Central,Argentina
+25267,US Le Pontet Grand Avignon 84,France
+25374,Sacachispas FC,Argentina
+25385,Loros de la Universidad de Colima,Mexico
+25467,Philadelphia Union,United States
+25580,Melbourne City FC,Australia
+25639,Hyères 83 FC,France
+25743,Szigetszentmiklósi TK,Hungary
+25765,Matsumoto Yamaga,Japan
+25817,CD Cova Piedade,Portugal
+25964,Crotone Primavera,Italy
+26091,Al-Duhail SC,Qatar
+26117,Ipswich Town U21,England
+26119,Athlético Marseille,France
+26132,UE Costa Brava,Spain
+26157,CM Crucero del Norte,Argentina
+26197,US Colomiers,France
+26299,CD Juventud Unida,Argentina
+26308,III. Kerület TVE Budapest,Hungary
+26332,Benevento Primavera,Italy
+26337,Cosenza Primavera,Italy
+26370,Pro Vercelli Primavera,Italy
+26459,NK Veres Rivne,Ukraine
+26491,Club Atlético Paraná,Argentina
+26550,Lagartos de Tabasco,Mexico
+26571,US Sarre-Union,France
+26594,FCM Aubervilliers,France
+26598,Trélissac FC,France
+26629,Al-Markhiya SC,Qatar
+26722,ASD Fondi Calcio,Italy
+26789,FC Pro Vercelli 1892,Italy
+26856,FC Chauray,France
+26863,Le Puy Foot 43 Auvergne,France
+26870,Olympique Saumur,France
+26871,US Avranches,France
+26883,USD Sestri Levante 1919,Italy
+26979,CD Marte,Mexico
+27018,Novara Primavera,Italy
+27050,Arzachena Academy,Italy
+27165,Dunaújváros FC,Hungary
+27190,Shanghai Port,China
+27214,Operário Ferroviário Esporte Clube,Brazil
+27354,Virtus Entella Primavera,Italy
+27397,Egri FC,Hungary
+27399,Karcagi SE,Hungary
+27402,Soproni VSE,Hungary
+27482,Pordenone Primavera,Italy
+27490,C\,France
+27525,FC Young Santarcangelo,Italy
+27531,Carpi Primavera,Italy
+27568,US Follonica Gavorrano,Italy
+27603,Kirklarelispor,Türkiye
+27624,US Recanatese,Italy
+27648,Trapani Primavera,Italy
+27770,Dorogi FC,Hungary
+28022,Cuiabá Esporte Clube,Brazil
+28095,FC Ufa,Russia
+28107,K Lierse SK,Belgium
+28185,CD Cruz Azul Hidalgo,Mexico
+28186,CF Atlante UTN,Mexico
+28190,Pumas Tabasco,Mexico
+28334,Bergerac Périgord FC,France
+28410,Budafoki MTE,Hungary
+28559,CA Bastia,France
+28593,Estudiantes de Altamira,Mexico
+28596,FC SILON Taborsko,Czech Republic
+28643,SK Beveren,Belgium
+28760,SK Austria Klagenfurt,Austria
+28779,Debreceni EAC,Hungary
+28893,Puszcza Niepolomice,Poland
+29095,Extremadura UD,Spain
+29130,Atlético Cihuatlán,Mexico
+29151,Potros UAEM,Mexico
+29228,Royal Excel Mouscron,Belgium
+29251,Virtusvecomp Verona,Italy
+29990,West Bromwich Albion U21,England
+29999,Balassagyarmati VSE,Hungary
+30000,Celldömölki VSE,Hungary
+30003,Mosonmagyaróvári TE 1904,Hungary
+30018,Monor SE,Hungary
+30038,CA Mitre,Argentina
+30066,FC Legnago Salus,Italy
+30111,Alebrijes de Oaxaca,Mexico
+30120,AE Kifisias,Greece
+30200,Fréjus-Saint-Raphaël FC,France
+30204,FC Annecy,France
+30239,FC Balagne,France
+30245,Saint-Pryvé Saint-Hilaire FC,France
+30293,Stade Poitevin FC,France
+30326,Gelbison,Italy
+30370,RCO Agde,France
+30443,Grand Ouest Association Lyonnaise FC,France
+30444,Luçon Football Club,France
+30533,Balmazújváros FC,Hungary
+30611,Stade Montois,France
+30612,US Saint-Malo,France
+30613,Kisvárda FC,Hungary
+30624,Szentlőrinc SE,Hungary
+30660,Szeged-Csanád - GA,Hungary
+30857,RSCA Futures,Belgium
+30891,Tarbes Pyrénées Football,France
+30913,Fóti SE,Hungary
+30925,Gwangju FC,"Korea, South"
+31068,Orange County SC,United States
+31255,SSD Akragas,Italy
+31284,CA Central Córdoba,Argentina
+31297,SKF Sered,Slovakia
+31622,Suwon FC,"Korea, South"
+32314,KFC Komarno,Slovakia
+32762,AC Amiens,France
+33203,Celaya FC,Mexico
+33285,Ventura County FC,United States
+33293,Chattanooga FC,United States
+33303,SD Logroñés,Spain
+33304,Dalian Professional,China
+33306,Gimnástica Segoviana CF,Spain
+33414,Phoenix Rising FC,United States
+33485,Neza FC,Mexico
+33524,Aqvital FC Csákvár,Hungary
+33614,Norwich City U21,England
+33616,Swansea City U21,Wales
+33714,Tianjin Tianhai,China
+33734,SS Monopoli 1966,Italy
+34148,UCAM Murcia CF,Spain
+34232,Muaither SC,Qatar
+34499,US Pianese,Italy
+34545,Coras de Nayarit,Mexico
+34559,Lorca FC,Spain
+34570,Cigánd SE,Hungary
+34694,Al-Shahania SC,Qatar
+35012,FC Chambly Oise,France
+35272,Cangzhou Mighty Lions,China
+35488,MFK Skalica,Slovakia
+36100,Western Sydney Wanderers,Australia
+36123,Reading FC U21,England
+36224,FK Jerv,Norway
+36336,FC Tucson,United States
+36546,Southampton FC U21,England
+36628,Guizhou FC,China
+36630,Hebei FC,China
+36693,RC Grasse,France
+36745,AC Tuttocuoio,Italy
+36892,Vitesse Arnhem U21,Netherlands
+36978,US Roye Noyon Cœur de Picardie,France
+37169,Puskás Akadémia FC,Hungary
+37474,Grêmio Novorizontino,Brazil
+37670,Murciélagos FC,Mexico
+37951,Corum FK,Türkiye
+38269,FK Pohronie,Slovakia
+38290,Pro Piacenza 1919,Italy
+38322,AC Bra,Italy
+38380,CF Ballenas Galeana Morelos,Mexico
+38387,Delfines del Carmen,Mexico
+38545,CA Agropecuario,Argentina
+38547,Iris Club de Croix,France
+38549,Jeunesse Villenavaise,France
+38588,Nottingham Forest U21,England
+38647,Detroit City FC,United States
+38655,AS Furiani-Agliani,France
+38705,CA Pontarlier,France
+38898,FC Anyang,"Korea, South"
+38929,Meizhou Hakka,China
+38946,Oklahoma City Energy FC,United States
+38987,Qingdao FC,China
+39097,Obolon Kyiv,Ukraine
+39148,Indy Eleven,United States
+39336,Brighton & Hove Albion U21,England
+39337,Derby County U21,England
+39341,Leicester City U21,England
+39722,Erzurumspor FK,Türkiye
+39805,Beykoz Anadolu Spor,Türkiye
+39815,New York Red Bulls II,United States
+39818,San Donato Tavarnelle,Italy
+40058,New York City FC,United States
+40173,Tiszakécskei LC,Hungary
+40181,Vanspor,Türkiye
+40188,Atlético de San Luis,Mexico
+40352,SS Matelica Calcio,Italy
+40373,FC Viktoria 1889 Berlin,Germany
+40835,Sacramento Republic FC,United States
+40900,Vierzon Football Club,France
+41053,Etoile Sportive Paulhan-Pézénas,France
+41101,Juventus Next Gen,Italy
+41107,Milan Futuro,Italy
+41110,Atalanta U23,Italy
+41119,Inter U23,Italy
+41128,US Granville,France
+41146,Union Clodiense Chioggia,Italy
+41201,PFK Tambov,Russia
+41231,FC Sochi,Russia
+41274,Beerschot VA,Belgium
+41323,Cimarrones de Sonora,Mexico
+41403,SD Tarazona,Spain
+41415,Sichuan Guancheng,China
+42609,SC Aubagne Air Bel,France
+42781,Tlaxcala FC,Mexico
+42814,Miami FC,United States
+43454,Juventud Torremolinos CF,Spain
+43540,ASC Biesheim,France
+43560,Club NXT,Belgium
+43562,Jong KAA Gent,Belgium
+43618,Zébra Élites,Belgium
+44006,Bodrum FK,Türkiye
+44139,Mobellaspor,Türkiye
+44223,AS Giana Erminio,Italy
+44772,Mineros de Zacatecas,Mexico
+45269,Esenler Erokspor,Türkiye
+45468,Aydinspor,Türkiye
+45545,Yeni Salihlispor,Türkiye
+45604,Orlando City SC,United States
+45805,Colorado Springs Switchbacks FC,United States
+45806,Real Monarchs SLC,United States
+45817,FC Montréal,Canada
+45818,Saint Louis FC,United States
+45894,Guidonia Montecelio 1937 FC,Italy
+46196,AC Mestre,Italy
+46293,Caldiero Terme,Italy
+46316,Louisville City FC,United States
+46324,Dinan Léhon FC,France
+46326,Football Club 93 Bobigny,France
+46337,Pineto Calcio,Italy
+46487,Nantong Zhiyun,China
+46579,FC Chamalières,France
+46619,Arzignano Valchiampo,Italy
+46717,Charlotte Independence,United States
+46719,Portland Timbers 2,United States
+46720,Tacoma Defiance,United States
+46721,Whitecaps FC 2,Canada
+46736,Jong Genk,Belgium
+46811,FK Blansko,Czech Republic
+46823,Toronto FC II,Canada
+46854,Mérida AD,Spain
+46856,Paternò Calcio,Italy
+47421,CF Talavera de la Reina,Spain
+48332,Kolos Kovalivka,Ukraine
+48726,Rukh Lviv,Ukraine
+48858,AO Chalkidona,Greece
+48913,Manisa FK,Türkiye
+48967,Inter Under 17,Italy
+49078,Afyonspor,Türkiye
+49143,KVV Thes Sport,Belgium
+49283,FC Juárez,Mexico
+49298,Cafetaleros de Chiapas,Mexico
+49364,Ingulets Petrove,Ukraine
+49430,AZ Picerno,Italy
+49567,Juventus Under 17,Italy
+49568,Atalanta BC U17,Italy
+49576,Roma Under 17,Italy
+49577,Cagliari Under 17,Italy
+49658,Avellino Under 17,Italy
+49702,FC Pari Nizhniy Novgorod,Russia
+49740,SS Lazio U17,Italy
+49741,Fiorentina Under 17,Italy
+49743,Napoli Under 17,Italy
+49744,Genoa Under 17,Italy
+49745,Sampdoria Under 17,Italy
+49746,Torino Under 17,Italy
+49752,Milan Under 17,Italy
+49753,Palermo Under 17,Italy
+49754,Sassuolo Under 17,Italy
+49755,Hellas Under 17,Italy
+49756,Chievo Under 17,Italy
+49757,Carpi Under 17,Italy
+49758,Frosinone Under 17,Italy
+49759,Bologna Under 17,Italy
+49760,Cesena Under 17,Italy
+49761,Pescara Under 17,Italy
+49762,Spezia Under 17,Italy
+49763,Livorno Under 17,Italy
+49764,Bari Under 17,Italy
+49765,Novara Under 17,Italy
+49766,Vicenza Under 17,Italy
+49767,Latina Under 17,Italy
+49768,Modena Under 17,Italy
+49769,Ternana Under 17,Italy
+49771,Pro Vercelli Under 17,Italy
+49772,Trapani Under 17,Italy
+49773,Perugia Under 17,Italy
+49774,Crotone Under 17,Italy
+49776,Salernitana Under 17,Italy
+49777,Como Under 17,Italy
+49868,Empoli Under 17,Italy
+49869,Udinese Under 17,Italy
+49939,Virtus Francavilla Calcio,Italy
+50437,Virtus Entella Under 17,Italy
+50454,Brescia Under 17,Italy
+50523,Ascoli Under 17,Italy
+50845,Serik Spor,Türkiye
+51120,Shenzhen Peng City,China
+51316,FC Kosice,Slovakia
+51404,FC Limonest,France
+51515,Bourges Foot,France
+51531,RSC Chatelet-Farciennes,Belgium
+51604,Sporting Kansas City II,United States
+51663,Atlanta United FC,United States
+51694,Rio Grande Valley FC Toros,United States
+51762,Philadelphia Union II,United States
+51772,FC Cincinnati,United States
+51773,Orlando City B,United States
+51828,Los Angeles FC,United States
+52397,Unionistas CF,Spain
+52563,Oud-Heverlee Leuven U23,Belgium
+52687,Alcione Milano,Italy
+52910,San Antonio FC,United States
+53251,FC Bourgoin-Jallieu,France
+53646,Polissya Zhytomyr,Ukraine
+54189,RWDM Brussels,Belgium
+54395,Parma Under 17,Italy
+54716,Reno 1868 FC,United States
+54819,Pordenone Under 17,Italy
+55216,Pisa Under 17,Italy
+55398,Ourense CF,Spain
+55686,Metalist 1925 Kharkiv,Ukraine
+55773,SPAL U17,Italy
+55774,Cittadella Under 17,Italy
+55778,Benevento Under 17,Italy
+56089,Minnesota United FC,United States
+57930,Marignane Gignac FC,France
+57999,AF Virois,France
+58188,CA Güemes,Argentina
+58267,GFA Rumilly Vallières,France
+58894,South Georgia Tormenta FC,United States
+58946,CD Arenteiro,Spain
+59639,Young Reds,Belgium
+60551,SC Dnipro-1,Ukraine
+60949,Volos NPS,Greece
+61431,FC Borgo,France
+61525,Cremonese Under 17,Italy
+61526,Foggia Under 17,Italy
+61527,Venezia Under 17,Italy
+61825,FC Minaj,Ukraine
+62204,Las Vegas Lights FC,United States
+62382,Paris 13 Atletico,France
+63007,LNZ Cherkasy,Ukraine
+63966,Nashville SC,United States
+64053,FC Rousset SVO,France
+64328,Atlanta United 2,United States
+64345,Tepatitlán FC,Mexico
+64480,Birmingham Legion FC,United States
+64501,URSL Visé,Belgium
+64918,Athletic Club,Brazil
+65791,Chengdu Rongcheng,China
+67212,CF Intercity,Spain
+67375,El Paso Locomotive FC,United States
+67731,Portimonense SAD U23,Portugal
+67837,CS Marítimo U23,Portugal
+67909,Sporting CP U23,Portugal
+67969,B SAD U23,Portugal
+67984,Hartford Athletic,United States
+68031,Loudoun United FC,United States
+68077,SC Braga U23,Portugal
+68110,Rio Ave FC U23,Portugal
+68188,Vitória de Guimarães SC U23,Portugal
+68264,Académica de Coimbra U23,Portugal
+68403,Estoril Praia U23,Portugal
+68495,Austin Bold FC,United States
+68608,CF Os Belenenses,Portugal
+68620,Padova Under 17,Italy
+68622,Cosenza Under 17,Italy
+68780,SL Benfica U23,Portugal
+68824,CD Cova da Piedade U23,Portugal
+69001,Lecce Under 17,Italy
+69044,Oakland Roots SC,United States
+69055,Greenville Triumph SC,United States
+69084,Entente Feignies Aulnoye FC,France
+69166,Memphis 901 FC,United States
+69261,Inter Miami CF,United States
+69398,Chattanooga Red Wolves SC,United States
+69748,Forward Madison FC,United States
+70056,New Mexico United,United States
+70657,Wuhan Three Towns,China
+70662,Qingdao West Coast,China
+71021,North Texas SC,United States
+71084,Western United FC,Australia
+71085,Macarthur FC,Australia
+71571,Chapulineros de Oaxaca,Mexico
+71985,Akron Togliatti,Russia
+72309,Austin FC,United States
+74346,Gallos de Aguascalientes,Mexico
+74664,Igdir FK,Türkiye
+74951,Sangiuliano City,Italy
+75123,Leixões SC U23,Portugal
+75231,Dinamo Makhachkala,Russia
+75337,FC Famalicão U23,Portugal
+75406,Juve Stabia Under 17,Italy
+75867,Sassuolo Under 18,Italy
+75868,Inter Under 18,Italy
+75900,Torino Under 18,Italy
+75901,Fiorentina Under 18,Italy
+76091,Atalanta Under 18,Italy
+76092,Genoa Under 18,Italy
+76093,Milan Under 18,Italy
+76094,Roma Under 18,Italy
+76095,Sampdoria Under 18,Italy
+76188,Saltillo Soccer FC,Mexico
+77059,Union Omaha,United States
+77720,San Diego Loyal SC,United States
+77984,New England Revolution II,United States
+78259,Inter Miami CF II,United States
+78435,Charlotte FC,United States
+79029,AS Villers-Houlgate,France
+80820,Tiburones Rojos de Coatzacoalcos,Mexico
+80821,Socio Águila FC,Mexico
+80822,Tigres UANL B,Mexico
+81401,SC Poltava,Ukraine
+81776,FC Montlouis,France
+82410,Guerreros Acapulco,Mexico
+82685,Lazio Under 18,Italy
+82686,St. Louis CITY SC,United States
+82696,Mazatlán FC,Mexico
+83082,Cancún FC,Mexico
+83678,Metalist Kharkiv,Ukraine
+84122,Epicentr Kamyanets-Podilskyi,Ukraine
+84400,Monza Primavera,Italy
+84451,Parma Under 18,Italy
+84504,Reggiana Under 17,Italy
+84577,Reggina Under 17,Italy
+84578,Monza Under 17,Italy
+84679,Monza Under 18,Italy
+84728,Boavista FC U23,Portugal
+85465,Karpaty Lviv,Ukraine
+86209,Livyi Bereg Kyiv,Ukraine
+86387,Lecco Primavera,Italy
+86389,Viterbese Primavera,Italy
+87631,Monterey Bay FC,United States
+87727,Amazonas FC,Brazil
+87883,FC Kudrivka,Ukraine
+89690,Feralpisalò Primavera,Italy
+91428,Hellas Verona Under 18,Italy
+91510,Dolomiti Bellunesi,Italy
+91660,Alessandria Primavera,Italy
+91662,Bourges Foot 18,France
+91714,Bologna Under 18,Italy
+91715,Cagliari Under 18,Italy
+91716,Empoli Under 18,Italy
+91718,SPAL Under 18,Italy
+91722,Alessandria Under 17,Italy
+91819,Imolese Primavera,Italy
+91830,Central Valley Fuego FC,United States
+91831,Northern Colorado Hailstorm FC,United States
+91910,FC Vizela U23,Portugal
+91911,SC Farense U23,Portugal
+92268,Ascoli Under 18,Italy
+93168,Catanzaro Primavera,Italy
+93288,Nacional Tijuana,Mexico
+93753,Yunnan Yukun,China
+94219,Real Sociedad de Zacatecas,Mexico
+94230,CF Pachuca Juniors,Mexico
+94231,Real San Sebastián,Mexico
+94385,US Thionville Lusitanos,France
+95331,Chicago Fire FC II,United States
+95332,FC Cincinnati 2,United States
+95333,Columbus Crew 2,United States
+95334,New York City FC II,United States
+95335,Colorado Rapids 2,United States
+95336,Houston Dynamo FC 2,United States
+95337,Minnesota United FC 2,United States
+95338,The Town FC,United States
+95339,St. Louis CITY SC 2,United States
+95875,FC Marco,Portugal
+98080,Dalian Yingbo,China
+99764,Gil Vicente U23,Portugal
+100124,Atlético La Paz,Mexico
+100330,Südtirol Under 17,Italy
+100335,CD Mafra U23,Portugal
+100431,Napoli Under 18,Italy
+100461,Lecce Under 18,Italy
+100631,Monopoli Primavera,Italy
+100739,Marignane-Gignac-Côte-Bleue FC,France
+101158,Cesena Under 18,Italy
+101282,Crown Legacy FC,United States
+101416,Venezia Under 18,Italy
+101419,CF Estrela Amadora U23,Portugal
+102031,One Knoxville SC,United States
+102400,Los Angeles FC 2,United States
+103004,Lexington SC,United States
+103649,Huntsville City FC,United States
+103657,Carolina Core FC,United States
+103722,Rhode Island FC,United States
+104630,Austin FC II,United States
+109718,SCU Torreense Sub-23,Portugal
+110302,Avs Futebol,Portugal
+110983,CD Santa Clara U23,Portugal
+110988,Académico de Viseu Sub-23,Portugal
+111245,Catanzaro Under 17,Italy
+111246,Frosinone Under 18,Italy
+111439,Feralpisalò Under 17,Italy
+111814,Lecco Under 17,Italy
+112584,Renate Primavera,Italy
+114568,Spokane Velocity FC,United States
+114977,San Diego FC,United States
+115284,Texoma FC,United States
+118373,Auckland FC,New Zealand
+119858,AV Alta FC,United States
+120328,FC Naples,United States
+120491,Carrarese Under 17,Italy
+120492,Mantova Under 17,Italy
+122406,Westchester SC,United States
+124312,Portland Hearts of Pine,United States
+131869,Cremonese Under 18,Italy
+132806,Union Brescia,Italy
+132946,UD Leiria Under 23,Portugal
+133273,Union Brescia Primavera,Italy
