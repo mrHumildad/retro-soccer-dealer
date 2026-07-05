@@ -1,0 +1,36 @@
+.main-menu {
+  position: fixed;
+  inset: 0;
+  background: var(--panel-dark);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  z-index: 1000;
+}
+
+.main-menu-logo {
+  width: 260px;
+  max-width: 70vw;
+  display: block;
+}
+
+.main-menu-button {
+  width: 220px;
+  height: 56px;
+  background: var(--gold);
+  color: var(--panel-dark);
+  border: none;
+  border-radius: var(--radius-button);
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  transition: filter var(--transition-hover);
+}
+
+.main-menu-button:hover {
+  filter: brightness(110%);
+}

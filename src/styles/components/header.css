@@ -1,0 +1,83 @@
+.scoreboard-header {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 390px;
+  z-index: 1000;
+  height: 72px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #1A2318;
+  border-bottom: 2px solid #8E6C2F;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
+}
+
+.scoreboard-section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.scoreboard-left {
+  align-items: flex-start;
+}
+
+.scoreboard-center {
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  max-width: 180px;
+}
+
+.scoreboard-right {
+  align-items: flex-end;
+}
+
+.scoreboard-logo {
+  height: 100%;
+  width: auto;
+  max-height: 56px;
+  max-width: 180px;
+  display: block;
+  object-fit: contain;
+}
+
+.scoreboard-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #D6B15B;
+  margin-bottom: 2px;
+}
+
+.scoreboard-value {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 20px;
+  font-weight: 700;
+  white-space: nowrap;
+  transition: color 150ms;
+}
+
+.scoreboard-value--money {
+  color: #6B8E4A;
+}
+
+.scoreboard-value--flash {
+  color: #8FB868;
+}
+
+.scoreboard-value--date {
+  color: #F5E7B7;
+}
+
+@media (max-width: 390px) {
+  .scoreboard-logo {
+    max-width: 120px;
+  }
+}

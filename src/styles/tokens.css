@@ -1,0 +1,29 @@
+:root {
+  --bg: #0F100D;
+  --bg-secondary: #151914;
+  --panel: #1A2318;
+  --panel-dark: #131A12;
+  --gold: #D6B15B;
+  --gold-light: #F0D28B;
+  --cream: #F5E7B7;
+  --green: #6B8E4A;
+  --green-dark: #4F6836;
+  --red: #B4312B;
+  --red-dark: #701915;
+  --border: #8E6C2F;
+  --shadow: rgba(0,0,0,.35);
+
+  --font-display: 'Alfa Slab One', 'Roboto Slab', serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --radius-panel: 18px;
+  --radius-card: 12px;
+  --radius-button: 10px;
+  --radius-badge: 999px;
+
+  --transition-hover: 120ms;
+  --transition-ui: 150ms;
+  --transition-screen: 250ms;
+  --transition-splash: 300ms;
+}

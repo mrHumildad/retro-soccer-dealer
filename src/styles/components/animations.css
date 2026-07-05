@@ -1,0 +1,26 @@
+.fade-in {
+  animation: fadeIn var(--transition-screen) ease-out;
+}
+
+.fade-out {
+  animation: fadeOut var(--transition-screen) ease-out forwards;
+}
+
+.slide-in-up {
+  animation: slideInUp var(--transition-screen) ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@keyframes slideInUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}

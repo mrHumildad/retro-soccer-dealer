@@ -1,0 +1,31 @@
+.footer-container {
+  margin-top: auto;
+  padding: 0.75rem 1rem;
+  background: var(--bg-secondary);
+  border-top: 2px solid var(--gold);
+  display: flex;
+  justify-content: center;
+}
+
+.footer-button {
+  width: 100%;
+  max-width: 24.375rem;
+  height: 3rem;
+  background: var(--green);
+  color: var(--cream);
+  border: none;
+  border-radius: var(--radius-button);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: filter var(--transition-hover), transform var(--transition-ui);
+}
+
+.footer-button:hover {
+  filter: brightness(110%);
+}
+
+.footer-button:active {
+  transform: translateY(0.125rem);
+}

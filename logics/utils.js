@@ -50,14 +50,18 @@ export function getMarketValueAtDate(playerId, gameDate, market) {
   return parseFloat(entries[0].value)
 }
 
+export const getClubLogoUrl = (clubId ) => {
+  return `https://tmssl.akamaized.net/images/wappen/medium/${clubId}.png`
+}
+
 export function getClubAtDate(playerId, gameDate, transfers) {
-  const playerTransfers = transfers
+  const playerTransfers = (transfers || [])
     .filter(t => t.player_id === playerId)
     .sort((a, b) => a.date.localeCompare(b.date))
   if (playerTransfers.length === 0) return null
-  if (playerTransfers[0].date > gameDate) return playerTransfers[0].from_team_name
-  const current = playerTransfers.reverse().find(t => t.date <= gameDate)
-  return current ? current.to_team_name : null
+  if (playerTransfers[0].date > gameDate) return { to_team_id: playerTransfers[0].from_team_id, to_team_name: playerTransfers[0].from_team_name }
+  const current = [...playerTransfers].reverse().find(t => t.date <= gameDate)
+  return current || null
 }
 
 export function getAge(dateOfBirth, gameDate) {

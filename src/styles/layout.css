@@ -1,0 +1,44 @@
+#root {
+  height: 100dvh;
+  max-width: 24.375rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+}
+
+.scroll-viewport {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.panel {
+  background: var(--panel);
+  border-radius: var(--radius-panel);
+  border: 2px solid var(--border);
+  box-shadow: 0 0 0 2px var(--border);
+  padding: 16px;
+}
+
+.card {
+  background: var(--panel);
+  border-radius: var(--radius-card);
+  border: 1px solid var(--border);
+  box-shadow: 0 4px 12px rgba(0,0,0,.25);
+  padding: 16px;
+}
+
+.panel-dark {
+  background: var(--panel-dark);
+  border-radius: var(--radius-card);
+  padding: 12px;
+}
