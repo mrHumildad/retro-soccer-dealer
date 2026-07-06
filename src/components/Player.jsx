@@ -25,7 +25,6 @@ const Player = ({ player, gameDate, owned = true, onSell, onBuy, market, transfe
     club = getClubAtDate(player.player_id, gameDate, transfers);
   }
 
-  const trendSymbol = trendClass === 'up' ? '▲' : trendClass === 'down' ? '▼' : '';
 
   return (
     <li className="player-card">
@@ -43,7 +42,6 @@ const Player = ({ player, gameDate, owned = true, onSell, onBuy, market, transfe
             alt={club?.to_team_name}
           />
           <span className={`player-card-sub ${clubChanged ? 'text-green' : ''}`}>{club?.to_team_name ?? '-'}</span>
-          {clubChanged && owned && <span className="player-card-trend up">▲</span>}
         </span>
         <span>
 

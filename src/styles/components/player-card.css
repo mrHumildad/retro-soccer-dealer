@@ -56,6 +56,10 @@
   text-overflow: ellipsis;
 }
 
+.player-card-sub.text-green {
+  color: var(--green);
+}
+
 .player-card-club-logo {
   width: 1em;
   height: 1em;

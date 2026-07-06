@@ -1,25 +1,29 @@
 .footer-container {
-  margin-top: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   padding: 0.75rem 1rem;
   background: var(--bg-secondary);
   border-top: 2px solid var(--gold);
-  display: flex;
-  justify-content: center;
 }
 
 .footer-button {
-  width: 100%;
-  max-width: 24.375rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
   height: 3rem;
   background: var(--green);
   color: var(--cream);
-  border: none;
+  border: 2px solid var(--gold);
   border-radius: var(--radius-button);
-  font-family: var(--font-body);
-  font-size: 1rem;
-  font-weight: 600;
   cursor: pointer;
   transition: filter var(--transition-hover), transform var(--transition-ui);
+}
+
+.footer-icon {
+  width: 20px;
+  height: 20px;
 }
 
 .footer-button:hover {

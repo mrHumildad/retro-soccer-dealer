@@ -151,9 +151,9 @@ function App() {
                 />
               )}
               <Home ownedPlayers={gameData.players} gameDate={dateStr} prevTotalValue={gameData.prevTotalValue} onSell={handleSell} />
-              {!isGameOver && <Footer onNextMonth={() => players.length > 0 && nextMonth()} />}
             </div>
           )}
+          {!isGameOver && <Footer onNextMonth={() => players.length > 0 && nextMonth()} />}
         </div>
       )}
     </div>
