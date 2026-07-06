@@ -7,6 +7,7 @@ export const initGame = () => {
     revenue: 0,
     expenses: 0,
     poolSize: 3,
+    buy4month: 1,
     endMonth: 1,
     endYear: 2020
   }

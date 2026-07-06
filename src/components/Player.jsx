@@ -19,7 +19,7 @@ const Player = ({ player, gameDate, owned = true, onSell, onBuy, market, transfe
     if (prevClub?.to_team_id && club?.to_team_id && prevClub.to_team_id !== club.to_team_id) {
       trendClass = 'up';
     }
-    const clubChanged = prevClub?.to_team_id && club?.to_team_id && prevClub.to_team_id !== club.to_team_id;
+    clubChanged = prevClub?.to_team_id && club?.to_team_id && prevClub.to_team_id !== club.to_team_id;
   } else {
     marketValue = getMarketValueAtDate(player.player_id, gameDate, market);
     club = getClubAtDate(player.player_id, gameDate, transfers);
@@ -31,7 +31,7 @@ const Player = ({ player, gameDate, owned = true, onSell, onBuy, market, transfe
     <li className="player-card">
       <img
         className="player-card-portrait"
-        src={player.player_image_url}
+        src={player.player_image_url.replace('/header/', '/small/')}
         alt={player.player_name}
       />
       <div className="player-card-info">
@@ -64,9 +64,9 @@ const Player = ({ player, gameDate, owned = true, onSell, onBuy, market, transfe
         ) : (
           marketValue !== null && marketValue !== undefined && (
             <button
-              className={`button ${money > marketValue ? 'button-secondary' : 'button-disabled'}`}
+              className={`button ${money >= marketValue ? 'button-secondary' : 'button-disabled'}`}
               onClick={() => onBuy(player.player_id, marketValue)}
-              disabled={money <= marketValue}
+              disabled={money < marketValue}
             >
               <span className="button-top">BUY</span>
               <span className="button-bottom">{formatValue(marketValue)}</span>
