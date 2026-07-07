@@ -74,3 +74,19 @@ export function getAge(dateOfBirth, gameDate) {
   }
   return age;
 }
+
+export const getRole = (player) => {
+  const firstChar = player.position?.charAt(0).toUpperCase() || '';
+  switch (firstChar) {
+    case 'G':
+      return 'GK';
+    case 'D':
+      return 'DEF';
+    case 'M':
+      return 'MID';
+    case 'A':
+      return 'FWD';
+    default:
+      return 'Unknown';
+  }
+}

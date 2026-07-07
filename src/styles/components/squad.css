@@ -1,11 +1,39 @@
-.squad-header {
+.squad-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--border);
+}
+ 
+.squad-header-row .squad-header {
+  margin: 0;
   font-family: var(--font-display);
   font-size: 20px;
   color: var(--gold);
-  margin-bottom: 16px;
-  padding: 0 16px;
-  padding-bottom: 12px;
-  border-bottom: 2px solid var(--border);
+}
+
+.squad-header-row .button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.1rem;
+  padding: 6px 10px;
+  min-width: 3.5em;
+  font-size: 0.7rem;
+}
+
+.squad-header-row .button:disabled {
+  background: transparent;
+  color: var(--text-muted, #666);
+  border-color: var(--text-muted, #555);
+  cursor: not-allowed;
+  filter: none;
+  transform: none;
 }
 
 .squad-list {

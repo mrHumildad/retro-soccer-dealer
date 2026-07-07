@@ -1,9 +1,10 @@
 import React from 'react';
-import { formatValue, getAge, getMarketValueAtDate, getClubAtDate, getClubLogoUrl } from '../../logics/utils.js';
+import { formatValue, getAge, getRole, getMarketValueAtDate, getClubAtDate, getClubLogoUrl } from '../../logics/utils.js';
 import '../styles/components/player-card.css';
 import CountryFlag from './CountryFlag.jsx';
 const Player = ({ player, gameDate, owned = true, onSell, onBuy, market, transfers, money }) => {
   const age = getAge(player.date_of_birth, gameDate);
+  const role = getRole(player);
   let trendClass = '';
   let clubChanged = false;
   let marketValue, club;
@@ -48,7 +49,7 @@ const Player = ({ player, gameDate, owned = true, onSell, onBuy, market, transfe
           <span className="player-card-sub">
             <CountryFlag country= {player.country_of_birth} title={player.country_of_birth} size={16} />
           </span>
-          <span className="player-card-sub">{player.position ?? '-'}</span>
+          <span className="player-card-sub"> {role ?? '-'}</span>
         </span>
       </div>
       <div className="player-card-action">

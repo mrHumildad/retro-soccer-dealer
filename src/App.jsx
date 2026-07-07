@@ -1,13 +1,14 @@
-import { useState, useEffect, useRef, useCallback } from 'react'
+import { useState, useEffect, useRef } from 'react'
 
 import Header from './components/Header.jsx'
-import World from './components/World.jsx'
+import Market from './components/Market.jsx'
 import Home from './components/Home.jsx'
 import Footer from './components/Footer.jsx'
 import GameOver from './components/GameOver.jsx'
 import SplashScreen from './components/SplashScreen.jsx'
 import MainMenu from './components/MainMenu.jsx'
 import HowToPlay from './components/HowToPlay.jsx'
+import Highscores from './components/Highscores.jsx'
 import { initGame } from '../logics/initGame.js'
 import { parseCsv, formatValue } from '../logics/utils.js'
 import { getPool } from '../logics/mechanics.js'
@@ -29,8 +30,53 @@ function App() {
   const [buysThisMonth, setBuysThisMonth] = useState(gameData.buy4month)
   const viewportRef = useRef(null)
 
+  const generateNews = (players, month, year) => {
+    const news = []
+    players.forEach(p => {
+      const birthMonth = p.date_of_birth ? parseInt(p.date_of_birth.split('-')[1], 10) : null
+      if (birthMonth === month) {
+        news.push({
+          id: `${year}-${month}-birthday-${p.player_id}`,
+          type: 'birthday',
+          playerName: p.player_name,
+          text: `${p.player_name} celebrates birthday`,
+          month,
+          year
+        })
+      }
+      if (p.prevClub && p.club && p.prevClub.to_team_id !== p.club.to_team_id) {
+        news.push({
+          id: `${year}-${month}-transfer-${p.player_id}`,
+          type: 'transfer',
+          playerName: p.player_name,
+          text: `${p.player_name} transferred to ${p.club.to_team_name}`,
+          from: p.prevClub.to_team_name,
+          to: p.club.to_team_name,
+          month,
+          year
+        })
+      }
+      if (p.prevMarketValue !== undefined && p.prevMarketValue !== null && p.marketValue !== p.prevMarketValue) {
+        const change = ((p.marketValue - p.prevMarketValue) / p.prevMarketValue * 100).toFixed(1)
+        const direction = p.marketValue > p.prevMarketValue ? 'up' : 'down'
+        news.push({
+          id: `${year}-${month}-value-${p.player_id}`,
+          type: 'value',
+          playerName: p.player_name,
+          text: `${p.player_name} value ${direction === 'up' ? '↑' : '↓'}${change}%`,
+          change,
+          direction,
+          month,
+          year
+        })
+      }
+    })
+    return news
+  }
+
   const handleBuy = (playerId, value) => {
     if (buysThisMonth <= 0) return;
+    if (gameData.players.length >= gameData.slots) return;
     setGameData(prev => {
       const player = players.find(p => p.player_id === playerId)
       if (!player) return prev
@@ -62,6 +108,33 @@ function App() {
     setGameData(prev => ({ ...prev, money: prev.money + value, players: prev.players.filter(p => p.player_id !== playerId) }))
   }
 
+  const handleBuySlot = () => {
+    setGameData(prev => ({
+      ...prev,
+      money: prev.money - prev.slotPrice,
+      slots: prev.slots + 1,
+      slotPrice: Math.floor(prev.slotPrice * 1.5),
+    }))
+  }
+
+  const handleBuyBuy4month = () => {
+    setGameData(prev => ({
+      ...prev,
+      money: prev.money - prev.buy4monthPrice,
+      buy4month: prev.buy4month + 1,
+      buy4monthPrice: Math.floor(prev.buy4monthPrice * 1.5),
+    }))
+  }
+
+  const handleBuyPoolSize = () => {
+    setGameData(prev => ({
+      ...prev,
+      money: prev.money - prev.poolSizePrice,
+      poolSize: prev.poolSize + 1,
+      poolSizePrice: Math.floor(prev.poolSizePrice * 1.5),
+    }))
+  }
+
   const nextMonth = () => {
     setBuysThisMonth(gameData.buy4month)
     setGameData(prev => {
@@ -89,13 +162,18 @@ function App() {
           : p.club
         return { ...p, marketValue: newValue, club: newClub, prevMarketValue: oldValue, prevClub: oldClub }
       })
+      const newsMonth = nextMonthNum > 12 ? 1 : nextMonthNum
+      const news = generateNews(updatedPlayers, newsMonth, nextYear)
+      console.log('📰 Player News - ' + formatDate(nextYear, newsMonth) + ':', news)
       setPool(getPool(prev.poolSize, newDateStr, updatedPlayers.map(p => p.player_id), players))
       return {
         ...prev,
-        month: nextMonthNum > 12 ? 1 : nextMonthNum,
+        month: newsMonth,
         year: nextYear,
         players: updatedPlayers,
-        prevTotalValue: oldTotalValue
+        prevTotalValue: oldTotalValue,
+        newsLog: [...(prev.newsLog || []), ...news],
+        currentNews: news
       }
     })
     viewportRef.current?.scrollTo({ top: 0, behavior: 'smooth' })
@@ -125,7 +203,7 @@ function App() {
   return (
     <div className="app-container">
       {screen === 'splash' && <SplashScreen onComplete={() => setScreen('menu')} />}
-      {screen === 'menu' && <MainMenu onStart={() => setScreen('game')} onHowToPlay={() => setScreen('howToPlay')} />}
+      {screen === 'menu' && <MainMenu onStart={() => setScreen('game')} onHowToPlay={() => setScreen('howToPlay')} onHighscores={() => setScreen('highscores')} />}
       {screen === 'howToPlay' && (
         <HowToPlay
           onBack={() => setScreen('menu')}
@@ -133,6 +211,7 @@ function App() {
           endDate={formatDate(gameData.endYear, gameData.endMonth)}
         />
       )}
+      {screen === 'highscores' && <Highscores onBack={() => setScreen('menu')} />}
       {screen === 'game' && (
         <div className="game-screen">
           <Header money={formatValue(gameData.money)} year={gameData.year} month={gameData.month} />
@@ -141,19 +220,25 @@ function App() {
           ) : (
             <div className="game-viewport" ref={viewportRef}>
               {buysThisMonth > 0 && (
-                <World
+                <Market
                   pool={pool}
                   market={market}
                   transfers={transfers}
                   gameDate={dateStr}
                   money={gameData.money}
                   onBuy={handleBuy}
+                  buy4month={gameData.buy4month}
+                  poolSize={gameData.poolSize}
+                  buy4monthPrice={gameData.buy4monthPrice}
+                  poolSizePrice={gameData.poolSizePrice}
+                  onBuyBuy4month={handleBuyBuy4month}
+                  onBuyPoolSize={handleBuyPoolSize}
                 />
               )}
-              <Home ownedPlayers={gameData.players} gameDate={dateStr} prevTotalValue={gameData.prevTotalValue} onSell={handleSell} />
+              <Home ownedPlayers={gameData.players} gameDate={dateStr} prevTotalValue={gameData.prevTotalValue} onSell={handleSell} slots={gameData.slots} slotPrice={gameData.slotPrice} money={gameData.money} onBuySlot={handleBuySlot} />
             </div>
           )}
-          {!isGameOver && <Footer onNextMonth={() => players.length > 0 && nextMonth()} />}
+          {!isGameOver && <Footer onNextMonth={() => players.length > 0 && nextMonth()} currentNews={gameData.currentNews} />}
         </div>
       )}
     </div>
