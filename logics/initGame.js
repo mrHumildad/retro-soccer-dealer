@@ -8,7 +8,7 @@ export const initGame = () => {
     expenses: 0,
     poolSize: 3,
     buy4month: 1,
-    endMonth: 1,
+    endMonth: 3,
     endYear: 2020,
     slots: 5,
     slotPrice: 1000000,

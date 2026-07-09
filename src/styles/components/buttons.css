@@ -44,3 +44,31 @@
 .button-danger:hover {
   filter: brightness(110%);
 }
+
+
+
+.button-disabled {
+  background: var(--border);
+  color: rgba(245,231,183,.5);
+  cursor: not-allowed;
+  opacity: 0.7;
+  border: 2px solid var(--red-dark);
+}
+
+.button-enabled {
+  cursor: pointer;
+  transition: all 0.15s ease;
+  background: #D6B15B;
+  color: var(--border);
+  border: 2px solid var(--red-dark);
+}
+
+.button-disabled:hover {
+  filter: none;
+  transform: none;
+}
+
+.button-enabled:hover {
+  filter: brightness(110%);
+  transform: translateY(-2px);
+}

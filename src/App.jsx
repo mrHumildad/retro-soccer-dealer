@@ -216,7 +216,7 @@ function App() {
         <div className="game-screen">
           <Header money={formatValue(gameData.money)} year={gameData.year} month={gameData.month} />
           {isGameOver ? (
-            <GameOver money={gameData.money} ownedPlayers={gameData.players} />
+            <GameOver money={gameData.money} ownedPlayers={gameData.players} setGameData={setGameData} setScreen={setScreen}/>
           ) : (
             <div className="game-viewport" ref={viewportRef}>
               {buysThisMonth > 0 && (

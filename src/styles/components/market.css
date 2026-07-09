@@ -30,14 +30,7 @@
   font-size: 0.7rem;
 }
 
-.market-header-row .button:disabled {
-  background: transparent;
-  color: var(--text-muted, #666);
-  border-color: var(--text-muted, #555);
-  cursor: not-allowed;
-  filter: none;
-  transform: none;
-}
+
 
 .market-list {
   display: flex;

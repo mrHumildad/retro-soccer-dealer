@@ -17,9 +17,7 @@ const Player = ({ player, gameDate, owned = true, onSell, onBuy, market, transfe
       if (player.marketValue > player.prevMarketValue) { trendClass = 'up'; }
       else if (player.marketValue < player.prevMarketValue) { trendClass = 'down'; }
     }
-    if (prevClub?.to_team_id && club?.to_team_id && prevClub.to_team_id !== club.to_team_id) {
-      trendClass = 'up';
-    }
+    
     clubChanged = prevClub?.to_team_id && club?.to_team_id && prevClub.to_team_id !== club.to_team_id;
   } else {
     marketValue = getMarketValueAtDate(player.player_id, gameDate, market);
@@ -63,7 +61,7 @@ const Player = ({ player, gameDate, owned = true, onSell, onBuy, market, transfe
         ) : (
           marketValue !== null && marketValue !== undefined && (
             <button
-              className={`button ${money >= marketValue ? 'button-secondary' : 'button-disabled'}`}
+              className={`button ${money >= marketValue ? 'button-enabled' : 'button-disabled'}`}
               onClick={() => onBuy(player.player_id, marketValue)}
               disabled={money < marketValue}
             >

@@ -81,6 +81,15 @@
   opacity: 0.7;
   border: 2px solid var(--red-dark);
 }
+
+.button-enabled {
+  cursor: pointer;
+  transition: all 0.15s ease;
+  background: #D6B15B;
+  color: var(--border);
+  border: 2px solid var(--red-dark);
+}
+
 .button-disabled:hover {
   filter: none;
   transform: none;
