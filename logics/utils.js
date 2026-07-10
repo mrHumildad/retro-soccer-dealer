@@ -65,8 +65,10 @@ export function getClubAtDate(playerId, gameDate, transfers) {
 }
 
 export function getAge(dateOfBirth, gameDate) {
+  if (!dateOfBirth || !gameDate) return null;
   const birth = new Date(dateOfBirth);
   const game = new Date(gameDate);
+  if (isNaN(birth.getTime()) || isNaN(game.getTime())) return null;
   let age = game.getFullYear() - birth.getFullYear();
   const monthDiff = game.getMonth() - birth.getMonth();
   if (monthDiff < 0 || (monthDiff === 0 && game.getDate() < birth.getDate())) {

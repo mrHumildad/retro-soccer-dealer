@@ -77,20 +77,26 @@ function App() {
           year
         })
       }
-      if (p.prevMarketValue !== undefined && p.prevMarketValue !== null && p.marketValue !== p.prevMarketValue) {
-        const change = ((p.marketValue - p.prevMarketValue) / p.prevMarketValue * 100).toFixed(1)
-        const direction = p.marketValue > p.prevMarketValue ? 'up' : 'down'
-        news.push({
-          id: `${year}-${month}-value-${p.player_id}`,
-          type: 'value',
-          playerName: p.player_name,
-          text: `${p.player_name} value ${direction === 'up' ? '↑' : '↓'}${change}%`,
-          change,
-          direction,
-          month,
-          year
-        })
-      }
+if (p.prevMarketValue !== undefined && p.prevMarketValue !== null && p.marketValue !== p.prevMarketValue) {
+         let changeValue;
+         if (p.prevMarketValue === 0) {
+           changeValue = p.marketValue > 0 ? 999.9 : -999.9;
+         } else {
+           changeValue = (p.marketValue - p.prevMarketValue) / p.prevMarketValue * 100;
+         }
+         const change = changeValue.toFixed(1);
+         const direction = p.marketValue > p.prevMarketValue ? 'up' : 'down';
+         news.push({
+           id: `${year}-${month}-value-${p.player_id}`,
+           type: 'value',
+           playerName: p.player_name,
+           text: `${p.player_name} value ${direction === 'up' ? '↑' : '↓'}${change}%`,
+           change,
+           direction,
+           month,
+           year
+         })
+       }
     })
     return news
   }
@@ -118,7 +124,7 @@ function App() {
       return {
         ...prev,
         money: prev.money - value,
-        players: [...prev.players, { ...player, marketValue: currentValue, club: currentClub, prevClub: null }]
+        players: [...prev.players, { ...player, marketValue: currentValue, club: currentClub, prevClub: null, buyDate: gameDate, buyValue: value }]
       }
     })
     setBuysThisMonth(prev => prev - 1)
@@ -256,7 +262,7 @@ function App() {
                   onBuyPoolSize={handleBuyPoolSize}
                 />
               )}
-              <Home ownedPlayers={gameData.players} gameDate={dateStr} prevTotalValue={gameData.prevTotalValue} onSell={handleSell} slots={gameData.slots} slotPrice={gameData.slotPrice} money={gameData.money} onBuySlot={handleBuySlot} />
+              <Home ownedPlayers={gameData.players} gameDate={dateStr} prevTotalValue={gameData.prevTotalValue} onSell={handleSell} slots={gameData.slots} slotPrice={gameData.slotPrice} money={gameData.money} onBuySlot={handleBuySlot} market={market} />
             </div>
           )}
           {!isGameOver && <Footer onNextMonth={() => players.length > 0 && nextMonth()} currentNews={gameData.currentNews} />}

@@ -3,7 +3,7 @@ import { formatValue } from '../../logics/utils.js';
 import Player from './Player.jsx';
 import '../styles/components/squad.css';
 
-const Home = ({ ownedPlayers = [], gameDate, prevTotalValue, onSell, slots, slotPrice, money, onBuySlot }) => {
+const Home = ({ ownedPlayers = [], gameDate, prevTotalValue, onSell, slots, slotPrice, money, onBuySlot, market }) => {
   if (ownedPlayers.length === 0) return null;
   const totalValue = ownedPlayers.reduce((acc, player) => acc + (player.marketValue || 0), 0);
   const totalValueClass = prevTotalValue !== undefined
@@ -33,6 +33,7 @@ const Home = ({ ownedPlayers = [], gameDate, prevTotalValue, onSell, slots, slot
             player={player} 
             gameDate={gameDate} 
             onSell={onSell} 
+            market={market}
           />
         ))}
       </ul>

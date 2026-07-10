@@ -31,7 +31,7 @@ function Highscores({ onBack }) {
           <p className="highscores-empty">No scores yet. Play a game!</p>
         ) : (
           <ol className="highscores-list">
-            {scores.map((entry, index) => (
+            {scores.slice(0, 3).map((entry, index) => (
               <li key={index} className="highscores-item">
                 <span className="highscores-rank mono">{index + 1}</span>
                 <span className="highscores-score mono">{formatValue(entry.score)}</span>

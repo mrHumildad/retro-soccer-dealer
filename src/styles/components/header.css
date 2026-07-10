@@ -58,14 +58,14 @@
 
 .scoreboard-value {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 700;
   white-space: nowrap;
   transition: color 150ms;
 }
 
 .scoreboard-value--money {
-  color: #6B8E4A;
+  color: #FFD700;
 }
 
 .scoreboard-value--flash {
@@ -73,7 +73,7 @@
 }
 
 .scoreboard-value--date {
-  color: #F5E7B7;
+  color: #8E6C2F;
 }
 
 @media (max-width: 390px) {

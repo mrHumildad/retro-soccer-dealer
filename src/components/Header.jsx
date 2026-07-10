@@ -4,7 +4,7 @@ import logoRect from '../assets/logo_rect.png';
 const Header = ({ money, year, month }) => {
   const [flash, setFlash] = useState(false);
   const prevMoney = useRef(money);
-
+  const briefYear = String(year).slice(2);
   useEffect(() => {
     if (money !== prevMoney.current) {
       prevMoney.current = money;
@@ -22,12 +22,7 @@ const Header = ({ money, year, month }) => {
   return (
     <header className="scoreboard-header">
       <div className="scoreboard-section scoreboard-left">
-        <span className="scoreboard-label">MONEY</span>
-        <span
-          className={`scoreboard-value scoreboard-value--money ${
-            flash ? 'scoreboard-value--flash' : ''
-          }`}
-        >
+        <span className="scoreboard-value scoreboard-value--money">
           ${money}
         </span>
       </div>
@@ -35,9 +30,8 @@ const Header = ({ money, year, month }) => {
         <img src={logoRect} alt="Retro Soccer Dealer" className="scoreboard-logo" />
       </div>
       <div className="scoreboard-section scoreboard-right">
-        <span className="scoreboard-label">DATE</span>
         <span className="scoreboard-value scoreboard-value--date">
-          {monthShort[month - 1]} {year}
+          {monthShort[month - 1]}'{String(year).slice(2)}
         </span>
       </div>
     </header>

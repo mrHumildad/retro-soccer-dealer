@@ -30,19 +30,17 @@ const Footer = ({ onNextMonth, currentNews }) => {
         </div>
       </div>
       <button className="footer-button" onClick={handleClick} aria-label="Next Month">
-        <svg
-          className="footer-icon"
-          width="20"
-          height="20"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="3"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        >
-          <path d="M9 18l6-6-6-6" />
-        </svg>
+        <span className="footer-arrow-flow" aria-hidden="true">
+          <span className="footer-arrow-track">
+            {Array.from({ length: 2 }).map((_, g) => (
+              <span className="footer-arrow-group" key={g}>
+                {Array.from({ length: 5 }).map((_, i) => (
+                  <span className="footer-arrow" key={i}>&gt;</span>
+                ))}
+              </span>
+            ))}
+          </span>
+        </span>
       </button>
     </div>
   );
