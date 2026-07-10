@@ -13,13 +13,12 @@ const Home = ({ ownedPlayers = [], gameDate, prevTotalValue, onSell, slots, slot
         ? 'text-red'
         : ''
     : '';
-  const isFull = ownedPlayers.length >= slots;
-  const canBuy = money >= slotPrice && !isFull;
+  const canBuy = money >= slotPrice;
   return (
     <div>
       <div className="squad-header-row">
         <h2 className="squad-header">{ownedPlayers.length}/{slots} SLOTS ( <span className={totalValueClass}>{formatValue(totalValue)}</span> )</h2>
-        <button className={`button ${canBuy ? 'button-enabled' : 'button-disabled'}`} disabled={!canBuy} onClick={onBuySlot} title={isFull ? 'Slots full' : `Buy slot for ${formatValue(slotPrice)}`}>
+        <button className={`button ${canBuy ? 'button-enabled' : 'button-disabled'}`} disabled={!canBuy} onClick={onBuySlot} title={`Buy slot for ${formatValue(slotPrice)}`}>
           <span className="button-top">+ SLOT</span>
           <span className="button-bottom">{formatValue(slotPrice)}</span>
         </button>

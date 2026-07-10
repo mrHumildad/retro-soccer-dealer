@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import { formatValue } from '../../logics/utils.js';
 import '../styles/screens/game-over.css';
-import {initGame} from '../../logics/initGame.js';
 const STORAGE_KEY = 'retro_soccer_highscores';
 
 function saveHighscore(score) {
@@ -16,7 +15,7 @@ function saveHighscore(score) {
   }
 }
 
-const GameOver = ({ money, ownedPlayers = [], setGameData, setScreen }) => {
+const GameOver = ({ money, ownedPlayers = [], resetGame, setScreen }) => {
   const playersValue = ownedPlayers.reduce((acc, p) => acc + (p.marketValue || 0), 0);
   const finalScore = money + playersValue;
 
@@ -26,7 +25,7 @@ const GameOver = ({ money, ownedPlayers = [], setGameData, setScreen }) => {
 
   return (
     <div className="game-over-container" onClick={() => {
-        setGameData(initGame());
+        resetGame();
         setScreen('menu');
       }}>
       <h1 className="game-over-title">Covid 19 Measures Ends Forever with Humans</h1>

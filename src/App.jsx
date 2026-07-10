@@ -30,6 +30,27 @@ function App() {
   const [buysThisMonth, setBuysThisMonth] = useState(gameData.buy4month)
   const viewportRef = useRef(null)
 
+  const resetGame = () => {
+    const fresh = initGame()
+    setGameData(fresh)
+    setBuysThisMonth(fresh.buy4month)
+    setPool(getPool(fresh.poolSize, fresh.year + '-' + String(fresh.month).padStart(2, '0') + '-01', [], players))
+  }
+
+  useEffect(() => {
+    const preventRefresh = (e) => {
+      const scrollable = e.target.closest('.scroll-viewport, .game-viewport')
+      if (!scrollable) return
+      const atTop = scrollable.scrollTop === 0
+      const atBottom = scrollable.scrollHeight - scrollable.scrollTop <= scrollable.clientHeight
+      if (atTop || atBottom) {
+        e.preventDefault()
+      }
+    }
+    document.addEventListener('touchmove', preventRefresh, { passive: false })
+    return () => document.removeEventListener('touchmove', preventRefresh)
+  }, [])
+
   const generateNews = (players, month, year) => {
     const news = []
     players.forEach(p => {
@@ -216,7 +237,7 @@ function App() {
         <div className="game-screen">
           <Header money={formatValue(gameData.money)} year={gameData.year} month={gameData.month} />
           {isGameOver ? (
-            <GameOver money={gameData.money} ownedPlayers={gameData.players} setGameData={setGameData} setScreen={setScreen}/>
+            <GameOver money={gameData.money} ownedPlayers={gameData.players} resetGame={resetGame} setScreen={setScreen}/>
           ) : (
             <div className="game-viewport" ref={viewportRef}>
               {buysThisMonth > 0 && (
