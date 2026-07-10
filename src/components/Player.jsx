@@ -95,11 +95,10 @@ const Player = ({ player, gameDate, owned = true, onSell, onBuy, market, transfe
             </span>
           </div>
           <div className="player-card-action">
-            {owned ? (
-                <button
-                  className={`button button-danger ${trendClass ? `button-trend-${trendClass}` : ''}`}
-                  disabled
-                >
+              {owned ? (
+                  <button
+                    className={`button button-danger button-disabled ${trendClass ? `button-trend-${trendClass}` : ''}`}
+                  >
                   <span className="button-top">
                     {monthlyDelta === null || monthlyDelta === 0 ? '-' : (
                       <>
