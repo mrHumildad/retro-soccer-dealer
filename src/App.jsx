@@ -38,17 +38,31 @@ function App() {
   }
 
   useEffect(() => {
-    const preventRefresh = (e) => {
+    const state = { startY: 0, atTop: false, atBottom: false }
+
+    const onTouchStart = (e) => {
       const scrollable = e.target.closest('.scroll-viewport, .game-viewport')
       if (!scrollable) return
-      const atTop = scrollable.scrollTop === 0
-      const atBottom = scrollable.scrollHeight - scrollable.scrollTop <= scrollable.clientHeight
-      if (atTop || atBottom) {
+      state.startY = e.touches[0].clientY
+      state.atTop = scrollable.scrollTop === 0
+      state.atBottom = scrollable.scrollHeight - scrollable.scrollTop <= scrollable.clientHeight
+    }
+
+    const onTouchMove = (e) => {
+      const scrollable = e.target.closest('.scroll-viewport, .game-viewport')
+      if (!scrollable) return
+      const deltaY = e.touches[0].clientY - state.startY
+      if ((state.atTop && deltaY > 0) || (state.atBottom && deltaY < 0)) {
         e.preventDefault()
       }
     }
-    document.addEventListener('touchmove', preventRefresh, { passive: false })
-    return () => document.removeEventListener('touchmove', preventRefresh)
+
+    document.addEventListener('touchstart', onTouchStart, { passive: true })
+    document.addEventListener('touchmove', onTouchMove, { passive: false })
+    return () => {
+      document.removeEventListener('touchstart', onTouchStart)
+      document.removeEventListener('touchmove', onTouchMove)
+    }
   }, [])
 
   const generateNews = (players, month, year) => {

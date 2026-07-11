@@ -11,6 +11,7 @@
   flex-direction: column;
   overflow-y: auto;
   overflow-x: hidden;
+  overscroll-behavior-y: none;
   -webkit-overflow-scrolling: touch;
   padding-bottom: 5.5rem;
 }
